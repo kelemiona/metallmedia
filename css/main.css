@@ -1,0 +1,548 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;1,100;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;1,600;1,700&display=swap');
+
+.html,
+body {
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    max-width: 1920px;
+    background: #ffffff;
+    font-family: 'Roboto';
+    letter-spacing: 1.5px;
+}
+
+/*Фон блоков*/
+.back-light-grey {
+    background-color: #f4f4f4;
+}
+
+/*Фон под заголовками*/
+.name-block {
+    background: rgb(230, 230, 230);
+    background: linear-gradient(162deg, rgba(230, 230, 230, 1) 0%, rgba(210, 210, 210, 1) 14%, rgba(205, 205, 205, 1) 30%, rgba(180, 180, 180, 1) 41%, rgba(155, 155, 155, 1) 60%, rgba(117, 115, 115, 1) 74%, rgba(78, 74, 74, 1) 95%);
+    color: #3e3e3e;
+    border-bottom: 2px solid #08c1bf;
+    padding-left: 40px;
+    font-weight: 300;
+    font-style: italic;
+    line-height: 1.5;
+}
+
+/*Шапка сайта*/
+header {
+    background: url("../img/shlif.jpg");
+}
+
+.head {
+    color: #f0f0f0;
+}
+
+.active-link {
+    border-bottom: 3px solid #08c1bf;
+}
+
+.logo,
+.phone {
+    padding: 15px 0;
+}
+
+.logo img {
+    width: 35vw;
+}
+
+.head .phone p {
+    font-size: 35px;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+
+.head .phone p::before {
+    font-family: 'Font Awesome 5 Pro';
+    content: "\f879";
+    color: #08c1bf;
+    font-weight: 300;
+    font-size: 30px;
+    margin-right: 10px;
+}
+
+.phone a {
+    text-decoration: none;
+    color: #08c1bf;
+}
+
+nav {
+    background: rgb(230, 230, 230);
+    background: linear-gradient(180deg, rgba(230, 230, 230, 1) 0%, rgba(210, 210, 210, 1) 14%, rgba(205, 205, 205, 1) 30%, rgba(180, 180, 180, 1) 48%, rgba(155, 155, 155, 1) 62%, rgba(117, 115, 115, 1) 78%, rgba(78, 74, 74, 1) 100%);
+    border-bottom: 5px solid;
+}
+
+.nav .nav-item a {
+    color: #474545;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.nav-item a {
+    display: block;
+    text-align: center;
+    padding: 2px 0;
+}
+
+.nav-item a:hover {
+    text-decoration: none;
+    background-color: #3e3e3e;
+    color: #08c1bf;
+}
+
+/*Кнопка закрытия/открытия навбара*/
+
+.spinner {
+    box-sizing: border-box;
+    cursor: pointer;
+    z-index: 99;
+    height: 14px;
+    width: 18px;
+    margin: auto 5px;
+}
+
+.spinner-line {
+    transition: all 0.3s;
+    box-sizing: border-box;
+    position: absolute;
+    height: 2px;
+    width: 18px;
+    background-color: #e8e2dc
+}
+
+.spinner .horizontal {
+    transition: all 0.3s;
+    box-sizing: border-box;
+    position: relative;
+    float: left;
+    margin-top: 3px
+}
+
+.spinner .diagonal.part-1 {
+    position: relative;
+    transition: all 0.3s;
+    box-sizing: border-box;
+    float: left
+}
+
+.spinner .diagonal.part-2 {
+    transition: all 0.3s;
+    box-sizing: border-box;
+    position: relative;
+    float: left;
+    margin-top: 3px
+}
+
+.spinner.active>.horizontal {
+    transition: all 0.3s;
+    box-sizing: border-box;
+    opacity: 0;
+    margin-top: 0
+}
+
+.spinner.active>.diagonal.part-1 {
+    transition: all 0.3s;
+    box-sizing: border-box;
+    transform: rotate(135deg);
+    margin-top: 6px
+}
+
+.spinner.active>.diagonal.part-2 {
+    transition: all 0.3s;
+    box-sizing: border-box;
+    transform: rotate(-135deg);
+    margin-top: -4px
+}
+
+.for-small-device img {
+    height: 100%;
+    width: 100%;
+    max-height: 40px;
+    object-fit: contain;
+}
+
+/*Секция связаться с нами*/
+.contact-us {
+    background: url("../img/steel-tube.jpg");
+    background-size: cover;
+    background-position: 0;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -webkit-background-size: cover;
+    position: relative;
+}
+
+.contact-us .info {
+    background-color: rgba(252, 250, 250, 0.671);
+
+}
+
+.contact-us>button {
+    background-color: rgba(252, 250, 250, 0.671);
+    border: 2px solid #08c1bf;
+}
+
+/*Секция о нас*/
+.image-about img {
+    max-width: 100%;
+    height: auto;
+}
+
+/*Блок Почему мы*/
+.reasons i {
+    color: #08c1bf;
+    margin-bottom: 25px;
+}
+
+.reasons p {
+    font-size: 1.5rem;
+}
+
+.reason-1,
+.reason-2,
+.reason-3 {
+    border-right: 1px solid #eaeaea
+}
+
+/*Карточки продукции*/
+.cards {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.production h4 {
+    padding-left: 15px;
+    font-weight: 300;
+    text-decoration: underline #08c1bf;
+
+}
+
+.card img {
+    max-width: 250px;
+    max-height: 250px;
+    height: auto;
+}
+
+.card img:hover {
+    opacity: 0.8;
+}
+
+.card-deck>div {
+    padding: 0;
+}
+
+/*Скидка и новинки*/
+.new::after {
+    content: " NEW";
+    color: yellowgreen;
+}
+
+.sale::after {
+    content: " SALE";
+    color: red;
+}
+
+/*Форма написать нам*/
+.name-input,
+.email-input,
+.tel-input {
+    position: relative;
+}
+
+.name-input i,
+.email-input i,
+.tel-input i {
+    position: absolute;
+    left: 15px;
+    top: 13px;
+    color: #08c1bf;
+    font-size: 25px;
+}
+
+.write-us input,
+.send-form {
+    margin: 5px 5px;
+    border: 1px solid #cccccc;
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -khtml-border-radius: 25px;
+    background-color: #cccccc38;
+    outline: none;
+    height: 40px;
+    width: 240px;
+    padding: 0 40px;
+}
+
+.send-form {
+    color: #f0f0f0;
+}
+
+.send-form i {
+    font-size: 25px;
+    color: #08c1bf;
+}
+
+.send-form:after {
+    transform: rotate(30deg) skew(-15deg);
+    transform: scale(2) rotate(0) skew(0) translateX(0) translateY(0);
+    opacity: 1;
+    visibility: hidden;
+    color: #08c1bf;
+    content: '\f1d8';
+    font-family: 'FontAwesome';
+    display: inline-block;
+}
+
+.send-form:hover::after {
+    transform: rotate(30deg) translateX(8em) translateY(-20em);
+    opacity: 0;
+    visibility: visible;
+    transition: transform 2s, opacity 1.8s, visibility .15s;
+}
+
+.send-form:hover i {
+    visibility: hidden;
+}
+
+.send-form:focus {
+    outline: 0 none !important;
+}
+
+.write-us ::-webkit-input-placeholder {
+    /* WebKit browsers */
+    color: #f0f0f0;
+}
+
+.write-us :-moz-placeholder {
+    /* Mozilla Firefox 4 to 18 */
+    color: #f0f0f0;
+}
+
+.write-us ::-moz-placeholder {
+    /* Mozilla Firefox 19+ */
+    color: #f0f0f0;
+}
+
+.write-us :-ms-input-placeholder {
+    /* Internet Explorer 10+ */
+    color: #f0f0f0;
+}
+
+.write-us {
+    background: url("/img/shlif.jpg");
+    color: #f0f0f0;
+}
+
+/*Футер */
+.small-logo img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
+.footer-nav a {
+    color: black;
+    text-decoration: underline;
+}
+
+.bottom-footer h6 {
+    text-decoration: underline #08c1bf;
+}
+
+.black-footer {
+    background: #3e3e3e;
+    color: #f0f0f0a8;
+}
+
+.black-footer span {
+    font-size: 12px;
+    padding: 4px 0;
+    font-weight: 100;
+}
+
+.partner img {
+    max-width: 100px;
+}
+
+.contact iframe {
+    width: 100%;
+    min-height: 400px;
+}
+
+.contact i {
+    margin-bottom: 15px;
+    color: #08c1bf;
+}
+.contact p{
+    margin: 0;
+    padding: 0;
+}
+
+.contact-adress, .contact-tel, .contact-time, .contact-mail {
+    width: 50%;
+    min-width: 200px;
+    margin: 30px 0;}
+
+.contact-time>p {
+    padding-bottom: 0;
+}
+
+asside a{
+    background: rgb(230, 230, 230);
+    background: linear-gradient(162deg, rgba(230, 230, 230, 1) 0%, rgba(210, 210, 210, 1) 14%, rgba(205, 205, 205, 1) 30%, rgba(180, 180, 180, 1) 41%, rgba(155, 155, 155, 1) 60%, rgba(117, 115, 115, 1) 74%, rgba(78, 74, 74, 1) 95%);
+    height: 40px;
+    font-size: 15px;
+    line-height: 2.5rem;
+}
+.dropdown-submenu {
+    position: relative;
+  }
+   
+  .dropdown-submenu>.dropdown-menu {
+    top: 0;
+    left: 100%;
+    margin-top: -6px;
+    margin-left: -1px;
+    -webkit-border-radius: 0 6px 6px 6px;
+    -moz-border-radius: 0 6px 6px;
+    border-radius: 0 6px 6px 6px;
+  }
+   
+  .dropdown-submenu:hover>.dropdown-menu {
+    display: block;
+  }
+   
+  .dropdown-submenu>a:after {
+    display: block;
+    content: " ";
+    float: right;
+    width: 0;
+    height: 0;
+    border-color: transparent;
+    border-style: solid;
+    border-width: 5px 0 5px 5px;
+    border-left-color: #ccc;
+    margin-top: 5px;
+    margin-right: -10px;
+  }
+   
+  .dropdown-submenu:hover>a:after {
+    border-left-color: #fff;
+  }
+   
+  .dropdown-submenu.pull-left {
+    float: none;
+  }
+   
+  .dropdown-submenu.pull-left>.dropdown-menu {
+    left: -100%;
+    margin-left: 10px;
+    -webkit-border-radius: 6px 0 6px 6px;
+    -moz-border-radius: 6px 0 6px 6px;
+    border-radius: 6px 0 6px 6px;
+  }
+    @media (max-width: 575.98px) {
+    .contact-us {
+        background-position: -150px;
+    }
+
+    .reason-1,
+    .reason-2,
+    .reason-3 {
+        border-right: none;
+        margin-bottom: 15px;
+    }
+
+    .reasons .fa {
+        margin-bottom: 10px;
+    }
+
+    .card {
+        height: 95% !important;
+    }
+
+    .write-us input,
+    .send-form {
+        width: 200px;
+    }
+
+    .send-form i {
+        margin-top: 5px;
+    }
+
+    .nav-item {
+        background: rgb(230, 230, 230);
+        background: linear-gradient(162deg, rgba(230, 230, 230, 1) 0%, rgba(210, 210, 210, 1) 14%, rgba(205, 205, 205, 1) 30%, rgba(180, 180, 180, 1) 41%, rgba(155, 155, 155, 1) 60%, rgba(117, 115, 115, 1) 74%, rgba(78, 74, 74, 1) 95%);
+
+    }
+
+    .card-deck>div {
+        padding: 0 10px;
+    }
+
+    .name-block {
+        line-height: 1.2;
+    }
+    
+    .requisites table {
+        font-size: 12px;
+    }
+    .partner {
+        margin-left: auto!important;
+        margin-right: auto!important;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .reason-2 {
+        border-right: none;
+    }
+
+    .logo img {
+        width: 40vw;
+    }
+
+    .head .phone p,
+    .head .phone p::before {
+        font-size: 18px;
+    }
+
+    .head .phone a {
+        font-size: 10px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .logo img {
+        height: 50px;
+    }
+
+    .head .phone p,
+    .head .phone p::before {
+        font-size: 23px;
+    }
+
+    .phone a {
+        font-size: 12px;
+    }
+
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .head .phone p {
+        font-size: 30px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .logo img {
+        width: 30vw;
+    }
+}
