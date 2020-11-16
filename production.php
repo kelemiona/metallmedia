@@ -1,57 +1,269 @@
 <?php include ("blocks/header.php") ?>
 <div class="row container-xl mx-auto my-3 my-sm-5">
-    <asside class=col-3>
-        <div class="dropdown">
-        <a id="dLabel" role="button" data-toggle="dropdown" class="btn btn-primary" data-target="#" href="#">
-                    Металлопрокат <span class="caret"></span>
-                </a>
-        <ul class="dropdown-menu multi-level" role="menu" aria-labelledby="dropdownMenu">
-            <li><a href="#">Some action</a></li>
-            <li><a href="#">Some other action</a></li>
-            <li class="divider"></li>
-            <li class="dropdown-submenu">
-            <a tabindex="-1" href="#">Hover me for more options</a>
-            <ul class="dropdown-menu">
-                <li><a tabindex="-1" href="#">Second level</a></li>
-                <li class="dropdown-submenu">
-                <a href="#">Even More..</a>
-                <ul class="dropdown-menu">
-                    <li><a href="#">3rd level</a></li>
-                    <li><a href="#">3rd level</a></li>
+    <aside class="col-3 d-none d-sm-block">
+        <div class="dropright text-center">
+            <div class="d-flex flex-column dropright">
+                <a href="#" class="dropdown-toggle" role="button" id="dropdownMenuLink" data-toggle="dropdown"
+                    aria-haspopup="true" aria-expanded="false">Металлопрокат</a>
+                <ul class="dropdown-menu multi-level" role="menu" aria-labelledby="dropdownMenu">
+                    <li><a href="#">Черный</a></li>
+                    <li><a href="#">Оцинкованный</a></li>
+
+                    <li class="dropdown-submenu">
+                        <a href="#">Специальный</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Конструкционный</a></li>
+                            <li><a href="#">Легированный</a></li>
+                            <li><a href="#">Инструментальный</a></li>
+                            <li><a href="#">Жаропрочный</a></li>
+                        </ul>
+                    </li>
                 </ul>
-                </li>
-                <li><a href="#">Second level</a></li>
-                <li><a href="#">Second level</a></li>
-            </ul>
-            </li>
-        </ul>
-        </div>
-        <div class="d-flex flex-column dropright">
-            <a href="#" class="dropdown-toggle" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Металлопрокат</a>
-                <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                    <a class="dropdown-item" href="#">Черный</a>
-                    <a class="dropdown-item" href="#">Оцинкованный</a>
-                    <a class="dropdown-item dropdown-toggle" href="#"  role="button" id="dropdownMenuLink2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Специальный</a>
-                        <div class="dropdown-submenu" aria-labelledby="dropdownMenuLink2">
-                            <a class="dropdown-item" href="#">Action</a>
-                            <a class="dropdown-item" href="#">Another action</a>
-                            <a class="dropdown-item" href="#">Something else here</a>
+                <li><a href="#">Виды стали</a></li>
+                <li><a href="#">Листы</a></li>
+                <li><a href="#">Круги</a></li>
+                <li><a href="#">Трубы</a></li>
+                <li><a href="#">Уголки</a></li>
+                <li><a href="#">Шестигранник</a></li>
+                <li><a href="#">Квадрат</a></li>
+                <li><a href="#">Поковка</a></li>
+                <li><a href="#">Полоса</a></li>
+            </div>
+    </aside>
+    <div class="col-12 col-sm-9">
+        <section class="production back-light-grey text-center">
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3">
+                <div class="col mb-4">
+                    <a href="/" target="_blank">
+                        <div class="card h-100">
+                            <div class="b-200">
+                                <img src="img/products/list.jpg" class="card-img-top" alt="...">
+                            </div>
+                            <div class="card-body">
+                                <p class="card-title">Стальной лист</p>
+                            </div>
                         </div>
+                    </a>
                 </div>
-            <a href="#">Листы</a>
-            <a href="#">Круги</a>
-            <a href="#">Трубы</a>
-            <a href="#">Уголки</a>
-            <a href="#">Шестигранник</a>
-            <a href="#">Квадрат</a>
-            <a href="#">Поковка</a>
-            <a href="#">Полоса</a>
-        </div>
-    </asside>
-    <div class="col-9">
-    <section class="production back-light-grey mt-3 mt-sm-5">
-  
-    </section>
+                <div class="col mb-4">
+                    <a href="/" target="_blank">
+                        <div class="card h-100">
+                            <div class="b-200">
+                                <img src="img/steel-tube.jpg" class="card-img-top" alt="...">
+                            </div>
+                            <div class="card-body">
+                                <p class="card-title">Труба стальная</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col mb-4">
+                    <a href="/" target="_blank">
+                        <div class="card h-100">
+                            <div class="b-200">
+                                <img src="img/steel-tube-product.jpg" class="card-img-top" alt="...">
+                            </div>
+                            <div class="card-body">
+                                <p class="card-title">Труба бесшовная</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col mb-4">
+                    <a href="/" target="_blank">
+                        <div class="card h-100">
+                            <div class="b-200">
+                                <img src="img/products/list.jpg" class="card-img-top" alt="...">
+                            </div>
+                            <div class="card-body">
+                                <p class="card-title">Труба профильная</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col mb-4">
+                    <a href="/" target="_blank">
+                        <div class="card h-100">
+                            <div class="b-200">
+                                <img src="img/products/list.jpg" class="card-img-top" alt="...">
+                            </div>
+                            <div class="card-body">
+                                <p class="card-title">Круг стальной</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col mb-4">
+                    <a href="/" target="_blank">
+                        <div class="card h-100">
+                            <div class="b-200">
+                                <img src="img/products/list.jpg" class="card-img-top" alt="...">
+                            </div>
+                            <div class="card-body">
+                                <p class="card-title">Уголок стальной</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col mb-4">
+                    <a href="/" target="_blank">
+                        <div class="card h-100">
+                            <div class="b-200">
+                                <img src="img/products/list.jpg" class="card-img-top" alt="...">
+                            </div>
+                            <div class="card-body">
+                                <p class="card-title">Шестигранник</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col mb-4">
+                    <a href="/" target="_blank">
+                        <div class="card h-100">
+                            <div class="b-200">
+                                <img src="img/products/list.jpg" class="card-img-top" alt="...">
+                            </div>
+                            <div class="card-body">
+                                <p class="card-title">Квадрат стальной</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col mb-4">
+                    <a href="/" target="_blank">
+                        <div class="card h-100">
+                            <div class="b-200">
+                                <img src="img/products/list.jpg" class="card-img-top" alt="...">
+                            </div>
+                            <div class="card-body">
+                                <p class="card-title">Поковка</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col mb-4">
+                    <a href="/" target="_blank">
+                        <div class="card h-100">
+                            <div class="b-200">
+                                <img src="img/products/list.jpg" class="card-img-top" alt="...">
+                            </div>
+                            <div class="card-body">
+                                <p class="card-title">Полоса стальная</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col mb-4">
+                    <a href="/" target="_blank">
+                        <div class="card h-100">
+                            <div class="b-200">
+                                <img src="img/products/diagramm.png" class="card-img-top" alt="...">
+                            </div>
+                            <div class="card-body">
+                                <p class="card-title">Ст.3</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col mb-4">
+                    <a href="/" target="_blank">
+                        <div class="card h-100">
+                            <div class="b-200">
+                                <img src="img/products/diagramm.png" class="card-img-top" alt="...">
+                            </div>
+                            <div class="card-body">
+                                <p class="card-title">Ст.20</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col mb-4">
+                    <a href="/" target="_blank">
+                        <div class="card h-100">
+                            <div class="b-200">
+                                <img src="img/products/diagramm.png" class="card-img-top" alt="...">
+                            </div>
+                            <div class="card-body">
+                                <p class="card-title">Ст.45</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col mb-4">
+                    <a href="/" target="_blank">
+                        <div class="card h-100">
+                            <div class="b-200">
+                                <img src="img/products/diagramm.png" class="card-img-top" alt="...">
+                            </div>
+                            <div class="card-body">
+                                <p class="card-title">Ст.40Х</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col mb-4">
+                    <a href="/" target="_blank">
+                        <div class="card h-100">
+                            <div class="b-200">
+                                <img src="img/products/diagramm.png" class="card-img-top" alt="...">
+                            </div>
+                            <div class="card-body">
+                                <p class="card-title">У8А</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col mb-4">
+                    <a href="/" target="_blank">
+                        <div class="card h-100">
+                            <div class="b-200">
+                                <img src="img/products/diagramm.png" class="card-img-top" alt="...">
+                            </div>
+                            <div class="card-body">
+                                <p class="card-title">У10А</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col mb-4">
+                    <a href="/" target="_blank">
+                        <div class="card h-100">
+                            <div class="b-200">
+                                <img src="img/products/diagramm.png" class="card-img-top" alt="...">
+                            </div>
+                            <div class="card-body">
+                                <p class="card-title">65Г</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col mb-4">
+                    <a href="/" target="_blank">
+                        <div class="card h-100">
+                            <div class="b-200">
+                                <img src="img/products/diagramm.png" class="card-img-top" alt="...">
+                            </div>
+                            <div class="card-body">
+                                <p class="card-title">9ХС</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col mb-4">
+                    <a href="/" target="_blank">
+                        <div class="card h-100">
+                            <div class="b-200">
+                                <img src="img/products/diagramm.png" class="card-img-top" alt="...">
+                            </div>
+                            <div class="card-body">
+                                <p class="card-title">Х12МФ</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+            </div>
+        </section>
     </div>
 </div>
 <?php include ("blocks/footer.php") ?>
