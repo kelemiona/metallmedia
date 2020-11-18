@@ -7,7 +7,6 @@ document.addEventListener('DOMContentLoaded', () => {
     const links = nav.getElementsByTagName('a');
     const url = document.location.href;
 
-
     toggle.addEventListener('click', () => {
         toggle.classList.toggle('active');
         nav.classList.toggle('d-none');
@@ -21,6 +20,5 @@ document.addEventListener('DOMContentLoaded', () => {
             };
         };
     })();
-
 
 })

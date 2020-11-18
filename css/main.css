@@ -475,6 +475,13 @@ aside a:hover {
     height: 100%;
     width: 100%;
 }
+.left-menu a{
+    display: block;
+    width: 100%;
+}
+.product-card {
+    transition: 1s;
+}
 @media (max-width: 575.98px) {
     .contact-us {
         background-position: -150px;

@@ -2,8 +2,8 @@
 <div class="row container-xl mx-auto my-3 my-sm-5">
     <aside class="col-3 d-none d-sm-block">
         <div class="dropright text-center">
-            <div class="d-flex flex-column dropright">
-                <a href="#" class="dropdown-toggle" role="button" id="dropdownMenuLink" data-toggle="dropdown"
+            <div class="d-flex flex-column dropright left-menu ">
+                <a href="#" class="dropdown-toggle all-products" role="button" id="dropdownMenuLink" data-toggle="dropdown"
                     aria-haspopup="true" aria-expanded="false">Металлопрокат</a>
                 <ul class="dropdown-menu multi-level" role="menu" aria-labelledby="dropdownMenu">
                     <li><a href="#">Черный</a></li>
@@ -19,21 +19,21 @@
                         </ul>
                     </li>
                 </ul>
-                <li><a href="#">Виды стали</a></li>
-                <li><a href="#">Листы</a></li>
-                <li><a href="#">Круги</a></li>
-                <li><a href="#">Трубы</a></li>
-                <li><a href="#">Уголки</a></li>
-                <li><a href="#">Шестигранник</a></li>
-                <li><a href="#">Квадрат</a></li>
-                <li><a href="#">Поковка</a></li>
-                <li><a href="#">Полоса</a></li>
+                <li><a href="#" class="steel">Виды стали</a></li>
+                <li><a href="#" class="lists">Листы</a></li>
+                <li><a href="#" class="circles">Круги</a></li>
+                <li><a href="#" class="pipes">Трубы</a></li>
+                <li><a href="#" class="corners">Уголки</a></li>
+                <li><a href="#" class="hexagon">Шестигранник</a></li>
+                <li><a href="#" class="square">Квадрат</a></li>
+                <li><a href="#" class="forging">Поковка</a></li>
+                <li><a href="#" class="stripe">Полоса</a></li>
             </div>
     </aside>
     <div class="col-12 col-sm-9">
         <section class="production back-light-grey text-center">
             <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3">
-                <div class="col mb-4">
+                <div class="col mb-4 product-card lists">
                     <a href="/" target="_blank">
                         <div class="card h-100">
                             <div class="b-200">
@@ -45,7 +45,7 @@
                         </div>
                     </a>
                 </div>
-                <div class="col mb-4">
+                <div class="col mb-4 product-card pipes">
                     <a href="/" target="_blank">
                         <div class="card h-100">
                             <div class="b-200">
@@ -57,7 +57,7 @@
                         </div>
                     </a>
                 </div>
-                <div class="col mb-4">
+                <div class="col mb-4 product-card pipes">
                     <a href="/" target="_blank">
                         <div class="card h-100">
                             <div class="b-200">
@@ -69,7 +69,7 @@
                         </div>
                     </a>
                 </div>
-                <div class="col mb-4">
+                <div class="col mb-4 product-card pipes">
                     <a href="/" target="_blank">
                         <div class="card h-100">
                             <div class="b-200">
@@ -81,7 +81,7 @@
                         </div>
                     </a>
                 </div>
-                <div class="col mb-4">
+                <div class="col mb-4 product-card circles">
                     <a href="/" target="_blank">
                         <div class="card h-100">
                             <div class="b-200">
@@ -93,7 +93,7 @@
                         </div>
                     </a>
                 </div>
-                <div class="col mb-4">
+                <div class="col mb-4 product-card corners">
                     <a href="/" target="_blank">
                         <div class="card h-100">
                             <div class="b-200">
@@ -105,7 +105,7 @@
                         </div>
                     </a>
                 </div>
-                <div class="col mb-4">
+                <div class="col mb-4 product-card hexagon">
                     <a href="/" target="_blank">
                         <div class="card h-100">
                             <div class="b-200">
@@ -117,7 +117,7 @@
                         </div>
                     </a>
                 </div>
-                <div class="col mb-4">
+                <div class="col mb-4 product-card square">
                     <a href="/" target="_blank">
                         <div class="card h-100">
                             <div class="b-200">
@@ -129,7 +129,7 @@
                         </div>
                     </a>
                 </div>
-                <div class="col mb-4">
+                <div class="col mb-4 product-card forging">
                     <a href="/" target="_blank">
                         <div class="card h-100">
                             <div class="b-200">
@@ -141,7 +141,7 @@
                         </div>
                     </a>
                 </div>
-                <div class="col mb-4">
+                <div class="col mb-4 product-card stripe">
                     <a href="/" target="_blank">
                         <div class="card h-100">
                             <div class="b-200">
@@ -153,7 +153,7 @@
                         </div>
                     </a>
                 </div>
-                <div class="col mb-4">
+                <div class="col mb-4 product-card steel">
                     <a href="/" target="_blank">
                         <div class="card h-100">
                             <div class="b-200">
@@ -165,7 +165,7 @@
                         </div>
                     </a>
                 </div>
-                <div class="col mb-4">
+                <div class="col mb-4 product-card steel">
                     <a href="/" target="_blank">
                         <div class="card h-100">
                             <div class="b-200">
@@ -177,7 +177,7 @@
                         </div>
                     </a>
                 </div>
-                <div class="col mb-4">
+                <div class="col mb-4 product-card steel">
                     <a href="/" target="_blank">
                         <div class="card h-100">
                             <div class="b-200">
@@ -189,7 +189,7 @@
                         </div>
                     </a>
                 </div>
-                <div class="col mb-4">
+                <div class="col mb-4 product-card steel">
                     <a href="/" target="_blank">
                         <div class="card h-100">
                             <div class="b-200">
@@ -201,7 +201,7 @@
                         </div>
                     </a>
                 </div>
-                <div class="col mb-4">
+                <div class="col mb-4 product-card steel">
                     <a href="/" target="_blank">
                         <div class="card h-100">
                             <div class="b-200">
@@ -213,7 +213,7 @@
                         </div>
                     </a>
                 </div>
-                <div class="col mb-4">
+                <div class="col mb-4 product-card steel">
                     <a href="/" target="_blank">
                         <div class="card h-100">
                             <div class="b-200">
@@ -225,7 +225,7 @@
                         </div>
                     </a>
                 </div>
-                <div class="col mb-4">
+                <div class="col mb-4 product-card steel">
                     <a href="/" target="_blank">
                         <div class="card h-100">
                             <div class="b-200">
@@ -237,7 +237,7 @@
                         </div>
                     </a>
                 </div>
-                <div class="col mb-4">
+                <div class="col mb-4 product-card steel">
                     <a href="/" target="_blank">
                         <div class="card h-100">
                             <div class="b-200">
@@ -249,7 +249,7 @@
                         </div>
                     </a>
                 </div>
-                <div class="col mb-4">
+                <div class="col mb-4 product-card steel">
                     <a href="/" target="_blank">
                         <div class="card h-100">
                             <div class="b-200">
@@ -266,4 +266,5 @@
         </section>
     </div>
 </div>
+<script src="script/product-script.js"></script>
 <?php include ("blocks/footer.php") ?>
