@@ -1,6 +1,6 @@
 <?php include ("blocks/header.php") ?>
 <div class="container-xl mx-auto">
-    <h1 class="mt-1 mt-sm-3">Контакты</h1>
+    <h1 class="mt-1 mt-sm-3 name-page">Контакты</h1>
 </div>
 <section class="contact back-light-grey mt-1 mt-sm-3">
     <div class="row py-3 py-sm-4 container-xl mx-auto ">
@@ -23,7 +23,7 @@
             </div>
             <div class="contact-mail text-center mx-auto">
                 <i class="fal fa-mail-bulk fa-3x"></i>
-                <p>mail@metallmedia.ru</p>
+                <p>metallms@mail.ru</p>
             </div>
         </div>
     </div>

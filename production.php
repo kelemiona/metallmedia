@@ -1,6 +1,6 @@
 <?php include ("blocks/header.php") ?>
-<div class="row container-xl mx-auto my-3 my-sm-5">
-    <aside class="col-3 d-none d-sm-block">
+<div class="row container-xl back-light-grey mx-auto my-sm-2">
+    <!-- <aside class="col-3 d-none d-sm-block">
         <div class="dropright text-center">
             <div class="d-flex flex-column dropright left-menu ">
                 <a href="#" class="dropdown-toggle all-products" role="button" id="dropdownMenuLink" data-toggle="dropdown"
@@ -29,24 +29,24 @@
                 <li><a href="#" class="forging">Поковка</a></li>
                 <li><a href="#" class="stripe">Полоса</a></li>
             </div>
-    </aside>
-    <div class="col-12 col-sm-9">
+    </aside> -->
+    <div class="col-12 col-sm-12 mt-4">
         <section class="production back-light-grey text-center">
             <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3">
                 <div class="col mb-4 product-card lists">
-                    <a href="/" target="_blank">
+                    <a href="/blocks/products/steellist.php" >
                         <div class="card h-100">
                             <div class="b-200">
                                 <img src="img/products/list.jpg" class="card-img-top" alt="...">
                             </div>
                             <div class="card-body">
-                                <p class="card-title">Стальной лист</p>
+                                <p class="card-title ">Стальной лист</p>
                             </div>
                         </div>
                     </a>
                 </div>
                 <div class="col mb-4 product-card pipes">
-                    <a href="/" target="_blank">
+                    <a href="/" >
                         <div class="card h-100">
                             <div class="b-200">
                                 <img src="img/steel-tube.jpg" class="card-img-top" alt="...">
@@ -153,7 +153,7 @@
                         </div>
                     </a>
                 </div>
-                <div class="col mb-4 product-card steel">
+                <!-- <div class="col mb-4 product-card steel">
                     <a href="/" target="_blank">
                         <div class="card h-100">
                             <div class="b-200">
@@ -260,7 +260,7 @@
                             </div>
                         </div>
                     </a>
-                </div>
+                </div> -->
 
             </div>
         </section>
