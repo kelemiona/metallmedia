@@ -34,7 +34,7 @@
         <nav class="nav-sm d-none d-sm-block">
             <ul class="nav d-flex flex-column flex-sm-row  justify-content-md-around">
                <li class="nav-item flex-fill"><a href="/" class="flex-fill">Главная</a></li> 
-               <li class="nav-item flex-fill"><a href="/about.php" class="flex-fill">О нас</a></li> 
+               <!-- <li class="nav-item flex-fill"><a href="/about.php" class="flex-fill">О нас</a></li>  -->
                <li class="nav-item flex-fill"><a href="/production.php" class="flex-fill">Продукция</a></li> 
                <li class="nav-item flex-fill"><a href="/contact.php" class="flex-fill">Контакты</a></li> 
             </ul>

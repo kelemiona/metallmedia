@@ -5,7 +5,7 @@
     <p>Черный металлопрокат, оцинкованный металлопрокат, специальные стали,</p>
     <p>трубы, листы, уголки, круги, поковка</p>
   </div>
-  <button class="btn  d-block mt-4 mx-auto" data-toggle="modal" data-target="#ModalCenter">Оставить заявку</button>
+  <button class="btn contact-us-button  d-block mt-4 mx-auto" data-toggle="modal" data-target="#ModalCenter">Оставить заявку</button>
   <div class="modal fade" id="ModalCenter" tabindex="-1" role="dialog" aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered" role="document">
       <div class="modal-content">
@@ -88,7 +88,7 @@
     </div>
   </div>
 </section>
-<section class="production back-light-grey mt-3 mt-sm-5">
+<!-- <section class="production back-light-grey mt-3 mt-sm-5">
   <h3 class="name-block">Наши товары</h3>
   <div class="py-2 py-sm-4 reasons container-xl mx-auto">
     <div class="popular-product">
@@ -215,5 +215,5 @@
       </div>
     </div> -->
   </div>
-</section>
+</section> -->
 <?php include ("blocks/footer.php") ?>

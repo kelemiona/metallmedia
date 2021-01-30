@@ -47,7 +47,7 @@
               <h6>Навигация</h6>
               <div class="d-flex flex-column footer-nav">
                 <a href="#">Главная</a>
-                <a href="#">О нас</a>
+                <!-- <a href="#">О нас</a> -->
                 <a href="#">Продукция</a>
                 <a href="#">Контакты</a>
               </div>
