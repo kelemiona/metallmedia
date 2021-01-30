@@ -8,7 +8,7 @@
   <button class="btn contact-us-button  d-block mt-4 mx-auto" data-toggle="modal" data-target="#ModalCenter">Оставить заявку</button>
   <div class="modal fade" id="ModalCenter" tabindex="-1" role="dialog" aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered" role="document">
-      <div class="modal-content">
+      <div class="modal-content write-us">
         <div class="modal-header">
           <h5 class="modal-title" id="ModalLongTitle">Закажите звонок</h5>
           <button type="button" class="close" data-dismiss="modal" aria-label="Close">
@@ -17,36 +17,26 @@
         </div>
         <div class="modal-body">
           <form action="">
-            <div class="form-group row">
-              <label for="inputName" class="col-sm-3 col-form-label">Имя</label>
-              <div class="col-sm-9">
-                <input type="text" class="form-control" id="inputName" required>
+          <div class="d-flex lign-content-start flex-wrap"> 
+                <div class="name-input mx-auto">
+                  <input type="text" name="name" id="name" placeholder="Ваше имя">
+                  <i class="fal fa-user-circle fa-2x"></i>
+                </div>
+                <div class="tel-input mx-auto">
+                  <input type="tel" name="phone" id="phone" placeholder="Ваш телефон">
+                  <i class="fal fa-phone-alt fa-2x"></i>
+                </div>
+                <div class="email-input mx-auto">
+                  <input type="email" name="email" id="email" placeholder="Ваш e-mail">
+                  <i class="fal fa-at fa-2x"></i>
+                </div>
+                <div class="mx-auto">
+                  <button class="send-form">Отправить <i class="fab fa-telegram-plane"></i></button>
+                </div>
               </div>
-            </div>
-            <div class="form-group row">
-              <label for="inputTel" class="col-sm-3 col-form-label">Телефон</label>
-              <div class="col-sm-9">
-                <input type="tel" class="form-control" id="inputTel" required>
-              </div>
-            </div>
-            <div class="form-group row">
-              <label for="inputEmail" class="col-sm-3 col-form-label">Почта</label>
-              <div class="col-sm-9">
-                <input type="email" class="form-control" id="inputEmail" required>
-              </div>
-            </div>
-            <div class="form-group row">
-              <label for="inputTextarea" class="col-sm-3 col-form-label">Комментарий</label>
-              <div class="col-sm-9">
-                <textarea class="form-control" id="inputTextarea" rows="3"></textarea>
-              </div>
-            </div>
           </form>
         </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-secondary" data-dismiss="modal">Закрыть</button>
-          <button type="button" class="btn btn-primary">Отправить</button>
-        </div>
+        
       </div>
     </div>
   </div>

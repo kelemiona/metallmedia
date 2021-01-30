@@ -245,6 +245,80 @@ nav {
     padding: 0;
 }
 
+.card {
+    box-shadow: 0px 5px 10px 0px rgb(0 0 0 / 10%);
+}
+.card-body {
+    border-top: 8px solid #f4f4f4;
+    padding: 0;
+    transition: background-color 0.8s 0.1s ease;
+    -moz-transition: background-color 0.8s 0.1s ease;
+    -o-transition: background-color 0.8s 0.1s ease;
+    -webkit-transition: background-color 0.3s 0.1s ease;
+    cursor: pointer;
+}
+
+.card:hover .card-body{
+    background-color: rgba(205, 205, 205, 0.692);
+    box-shadow: 0px 5px 10px 0px rgb(0 0 0 / 10%);
+}
+
+.product-card a:hover {
+    text-decoration: none;
+}
+
+.card-title {
+    margin-top: 9px;
+    white-space: nowrap;
+    color: #08c1bf;
+}
+
+.production .b-200 {
+    height: 200px;
+}
+
+.production .b-200 img {
+    object-fit: contain;
+    height: 100%;
+    width: 100%;
+}
+.left-menu a{
+    display: block;
+    width: 100%;
+}
+.product-card {
+    transition: 1s;
+}
+
+.name-product {
+    font-weight: 600;
+    font-style: italic;
+    line-height: 1.5;
+}
+
+.image-product {
+    max-width: 600px;
+    max-height: 600px;
+    width: 100%;
+}
+.product-about, .product-about-text {
+    font-size: 20px;
+    word-wrap: break-word;
+} 
+
+.product-about {
+    font-size: 30px;
+    font-style: italic;
+}
+
+/* Модальное окно */
+
+.modal-content {
+    width: 350px;
+}
+.modal-title, .close {
+    color: #08c1bf;
+}
 /*Скидка и новинки*/
 .new::after {
     content: " NEW";
@@ -347,6 +421,7 @@ nav {
     background: url("/img/shlif.jpg");
     color: #f0f0f0;
 }
+
 
 /*Футер */
 .small-logo img {
@@ -469,70 +544,9 @@ aside a:hover {
     padding: 0;
     border: none;
 }
-.card {
-    box-shadow: 0px 5px 10px 0px rgb(0 0 0 / 10%);
-}
-.card-body {
-    border-top: 8px solid #f4f4f4;
-    padding: 0;
-    -moz-transition: background-color 0.8s 0.1s ease;
-    -o-transition: background-color 0.8s 0.1s ease;
-    -webkit-transition: background-color 0.3s 0.1s ease;
-    cursor: pointer;
-}
 
-.card:hover .card-body{
-    background-color: rgba(205, 205, 205, 0.692);
-    box-shadow: 0px 5px 10px 0px rgb(0 0 0 / 10%);
-}
 
-.product-card a:hover {
-    text-decoration: none;
-}
 
-.card-title {
-    margin-top: 9px;
-    white-space: nowrap;
-    color: #08c1bf;
-}
-
-.production .b-200 {
-    height: 200px;
-}
-
-.production .b-200 img {
-    object-fit: contain;
-    height: 100%;
-    width: 100%;
-}
-.left-menu a{
-    display: block;
-    width: 100%;
-}
-.product-card {
-    transition: 1s;
-}
-
-.name-product {
-    font-weight: 600;
-    font-style: italic;
-    line-height: 1.5;
-}
-
-.image-product {
-    max-width: 600px;
-    max-height: 600px;
-    width: 100%;
-}
-.product-about, .product-about-text {
-    font-size: 20px;
-    word-wrap: break-word;
-} 
-
-.product-about {
-    font-size: 30px;
-    font-style: italic;
-}
 @media (max-width: 575.98px) {
     .contact-us {
         background-position: -150px;
