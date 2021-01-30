@@ -72,11 +72,11 @@
   <div class="row py-4 reasons container-xl mx-auto text-center">
     <div class="col-12 col-sm-6 col-md-3 reason-1">
       <i class="fal fa-ruble-sign fa-5x" aria-hidden="true"></i>
-      <p>Низкие<br>цены</p>
+      <p>Гибкие<br>цены</p>
     </div>
     <div class="col-12 col-sm-6 col-md-3 reason-2">
       <i class="fal fa-shipping-fast fa-5x" aria-hidden="true"></i>
-      <p>Быстрое изготовление</p>
+      <p>Быстрая<br> доставка</p>
     </div>
     <div class="col-12 col-sm-6 col-md-3 reason-3">
       <i class="fal fa-box-full fa-5x" aria-hidden="true"></i>
@@ -92,7 +92,7 @@
   <h3 class="name-block">Наши товары</h3>
   <div class="py-2 py-sm-4 reasons container-xl mx-auto">
     <div class="popular-product">
-      <h4>Популярные товары</h4>
+    
       <div class="card-deck row">
         <div class="col-12 col-sm-6 col-md-4">
           <div class="card h-100">
@@ -132,7 +132,7 @@
         </div>
       </div>
     </div>
-    <div class="sale-product">
+    <!-- <div class="sale-product">
       <h4 class="mt-3 mt-sm-5">Товары с скидкой</h4>
       <div class="card-deck row">
         <div class="col-12 col-sm-6 col-md-4">
@@ -213,7 +213,7 @@
           </div>
         </div>
       </div>
-    </div>
+    </div> -->
   </div>
 </section>
 <?php include ("blocks/footer.php") ?>

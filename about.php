@@ -19,7 +19,7 @@
         </div>
     </div>
 </section>
-<section class="partners">
+<!-- <section class="partners">
     <div class="container-xl mx-auto">
         <h2 class="mt-1 mt-sm-3">Наши партнеры</h2>
     </div>
@@ -31,5 +31,5 @@
         <div class="partner"><img src="img/not_found.jpg" alt=""></div>
         <div class="partner"><img src="img/not_found.jpg" alt=""></div>
     </div>
-</section>
+</section> -->
 <?php include ("blocks/footer.php") ?>
