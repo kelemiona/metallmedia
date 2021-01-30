@@ -78,6 +78,7 @@
     </div>
   </div>
 </section>
+
 <!-- <section class="production back-light-grey mt-3 mt-sm-5">
   <h3 class="name-block">Наши товары</h3>
   <div class="py-2 py-sm-4 reasons container-xl mx-auto">
@@ -122,7 +123,7 @@
         </div>
       </div>
     </div>
-    <!-- <div class="sale-product">
+     <div class="sale-product">
       <h4 class="mt-3 mt-sm-5">Товары с скидкой</h4>
       <div class="card-deck row">
         <div class="col-12 col-sm-6 col-md-4">
@@ -203,7 +204,7 @@
           </div>
         </div>
       </div>
-    </div> -->
+    </div> 
   </div>
 </section> -->
 <?php include ("blocks/footer.php") ?>

@@ -35,7 +35,21 @@
             <ul class="nav d-flex flex-column flex-sm-row  justify-content-md-around">
                <li class="nav-item flex-fill"><a href="/" class="flex-fill">Главная</a></li> 
                <!-- <li class="nav-item flex-fill"><a href="/about.php" class="flex-fill">О нас</a></li>  -->
-               <li class="nav-item flex-fill"><a href="/production.php" class="flex-fill">Продукция</a></li> 
+               <li class="nav-item flex-fill drop-down-prod">
+                   <a href="/production.php" class="flex-fill">Продукция</a>
+                   <ul class="drop-down-list nav ">
+                    <li class="nav-item flex-fill"><a href="blocks/products/steellist.php" class="flex-fill">Стальной лист</a></li>
+                    <li class="nav-item flex-fill"><a href="blocks/products/steellist.php" class="flex-fill">Труба стальная</a></li> 
+                    <li class="nav-item flex-fill"><a href="/products/steellist.php" class="flex-fill">Труба бесшовная</a></li> 
+                    <li class="nav-item flex-fill"><a href="/products/steellist.php" class="flex-fill">Труба профильная</a></li> 
+                    <li class="nav-item flex-fill"><a href="/products/steellist.php" class="flex-fill">Круг стальной</a></li> 
+                    <li class="nav-item flex-fill"><a href="/products/steellist.php" class="flex-fill">Уголок стальной</a></li> 
+                    <li class="nav-item flex-fill"><a href="/products/steellist.php" class="flex-fill">Шестигранник</a></li> 
+                    <li class="nav-item flex-fill"><a href="/products/steellist.php" class="flex-fill">Квадрат стальной</a></li> 
+                    <li class="nav-item flex-fill"><a href="/products/steellist.php" class="flex-fill">Поковка</a></li>
+                    <li class="nav-item flex-fill"><a href="/products/steellist.php" class="flex-fill">Полоса стальная</a></li>
+                   </ul>
+                </li> 
                <li class="nav-item flex-fill"><a href="/contact.php" class="flex-fill">Контакты</a></li> 
             </ul>
         </nav>

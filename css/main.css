@@ -100,6 +100,36 @@ nav {
     color: #08c1bf;
 }
 
+.drop-down-prod {
+    position: relative;
+}
+.drop-down-list {
+    position: absolute;
+    left: 0;
+    background-color:  #3e3e3ee1;
+    display: none;
+    width: 100%;
+    z-index: 100;
+}
+
+
+.nav .nav-item .drop-down-list a {
+    color: #f0f0f0;
+    padding: 3px 0;
+
+}
+.nav .nav-item .drop-down-list a:hover {
+    color: #08c1bf;
+}
+.drop-down-prod:hover .drop-down-list {
+    display: block;
+}
+
+.drop-down-list li {
+    
+    border-bottom: 1px solid #f0f0f0;
+}
+
 /*Кнопка закрытия/открытия навбара*/
 
 .spinner {

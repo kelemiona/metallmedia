@@ -49,7 +49,7 @@
                     <a href="/" >
                         <div class="card h-100">
                             <div class="b-200">
-                                <img src="img/steel-tube.jpg" class="card-img-top" alt="...">
+                                <img src="img/products/steel-square-tube.png" class="card-img-top" alt="...">
                             </div>
                             <div class="card-body">
                                 <p class="card-title">Труба стальная</p>
@@ -61,7 +61,7 @@
                     <a href="/" target="_blank">
                         <div class="card h-100">
                             <div class="b-200">
-                                <img src="img/steel-tube-product.jpg" class="card-img-top" alt="...">
+                                <img src="img/products/steel-tube-product.jpg" class="card-img-top" alt="...">
                             </div>
                             <div class="card-body">
                                 <p class="card-title">Труба бесшовная</p>
@@ -73,7 +73,7 @@
                     <a href="/" target="_blank">
                         <div class="card h-100">
                             <div class="b-200">
-                                <img src="img/products/list.jpg" class="card-img-top" alt="...">
+                                <img src="img/products/steel-rectangular.jpg" class="card-img-top" alt="...">
                             </div>
                             <div class="card-body">
                                 <p class="card-title">Труба профильная</p>
@@ -85,7 +85,7 @@
                     <a href="/" target="_blank">
                         <div class="card h-100">
                             <div class="b-200">
-                                <img src="img/products/list.jpg" class="card-img-top" alt="...">
+                                <img src="img/products/steel-round-bar.jpg" class="card-img-top" alt="...">
                             </div>
                             <div class="card-body">
                                 <p class="card-title">Круг стальной</p>
@@ -121,7 +121,7 @@
                     <a href="/" target="_blank">
                         <div class="card h-100">
                             <div class="b-200">
-                                <img src="img/products/list.jpg" class="card-img-top" alt="...">
+                                <img src="img/products/steel-square.jpg" class="card-img-top" alt="...">
                             </div>
                             <div class="card-body">
                                 <p class="card-title">Квадрат стальной</p>
