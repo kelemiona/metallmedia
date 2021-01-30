@@ -1,7 +1,7 @@
 </main>
     <footer class="">
       <section class="write-us mt-3 mt-sm-5 py-3">
-        <div class="container mx-auto row">
+        <div class="container mx-auto row mt-2">
           <div class="col-sm-6 d-none d-sm-block">
             <h4>Оставьте заявку прямо сейчас!</h4>
             <p>Заполните эту форму и наш специалист свяжется с Вами в ближайшее время</p>
