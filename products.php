@@ -34,7 +34,7 @@
         <section class="production back-light-grey text-center">
             <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3">
                 <div class="col mb-4 product-card lists">
-                    <a href="/blocks/products/steellist.php" >
+                    <a href="products/steellist.php" >
                         <div class="card h-100">
                             <div class="b-200">
                                 <img src="img/products/list.jpg" class="card-img-top" alt="...">
@@ -46,10 +46,10 @@
                     </a>
                 </div>
                 <div class="col mb-4 product-card pipes">
-                    <a href="/" >
+                    <a href="/products/steel-round-tube.php" >
                         <div class="card h-100">
                             <div class="b-200">
-                                <img src="img/products/steel-square-tube.png" class="card-img-top" alt="...">
+                                <img src="img/products/round-tube.jpg" class="card-img-top" alt="...">
                             </div>
                             <div class="card-body">
                                 <p class="card-title">Труба стальная</p>

@@ -36,11 +36,11 @@
           <div class="row">
             <div class="col-6 col-sm-3">
               <h6>ООО "МеталлМедиа"</h6>
-              <p>© 2020</p>
+              <p><?php echo date("Y");?></p>
             </div>
             <div class="col-6 col-sm-3">
               <h6>Контакты</h6>
-              <p>+7-918-470-70-50</p>
+              <p><a href="tel:+79184707050">+7-918-470-70-50</a></p>
               <p>г. Краснодар ул. Зоологическая д.35/1</p>
             </div>
             <div class="col-6 col-sm-3">

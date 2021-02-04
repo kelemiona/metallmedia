@@ -1,45 +1,11 @@
 <?php include ("blocks/header.php") ?>
 <section class="contact-us text-center py-3 py-sm-5">
   <div class="info py-2">
-    <h2 class="">Комплексная поставка металлопроката</h2>
+    <h2 class="">Комплексная поставка металлопроката в Краснодаре</h2>
     <p>Черный металлопрокат, оцинкованный металлопрокат, специальные стали,</p>
     <p>трубы, листы, уголки, круги, поковка</p>
   </div>
-  <button class="btn contact-us-button  d-block mt-4 mx-auto" data-toggle="modal" data-target="#ModalCenter">Оставить заявку</button>
-  <div class="modal fade" id="ModalCenter" tabindex="-1" role="dialog" aria-hidden="true">
-    <div class="modal-dialog modal-dialog-centered" role="document">
-      <div class="modal-content write-us">
-        <div class="modal-header">
-          <h5 class="modal-title" id="ModalLongTitle">Закажите звонок</h5>
-          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-            <span aria-hidden="true">&times;</span>
-          </button>
-        </div>
-        <div class="modal-body">
-          <form action="">
-          <div class="d-flex lign-content-start flex-wrap"> 
-                <div class="name-input mx-auto">
-                  <input type="text" name="name" id="name" placeholder="Ваше имя">
-                  <i class="fal fa-user-circle fa-2x"></i>
-                </div>
-                <div class="tel-input mx-auto">
-                  <input type="tel" name="phone" id="phone" placeholder="Ваш телефон">
-                  <i class="fal fa-phone-alt fa-2x"></i>
-                </div>
-                <div class="email-input mx-auto">
-                  <input type="email" name="email" id="email" placeholder="Ваш e-mail">
-                  <i class="fal fa-at fa-2x"></i>
-                </div>
-                <div class="mx-auto">
-                  <button class="send-form">Отправить <i class="fab fa-telegram-plane"></i></button>
-                </div>
-              </div>
-          </form>
-        </div>
-        
-      </div>
-    </div>
-  </div>
+  <?php require ("blocks/button-contact-us.php") ?>
 </section>
 <section class="about-us back-light-grey mt-3 mt-sm-5">
   <h3 class="name-block">О нас</h3>
@@ -48,9 +14,9 @@
       <img src="/img/tube-bende.jpg" alt="work-image">
     </div>
     <div class="text-about col-sm-6">
-      <p> Компания "МеталлМедиа" существует на рынке уже n лет. Мы занимаемся реализацией черного и оцинкованного
+      <p> Компания "МеталлМедиа" существует на Краснодарском рынке уже 5 лет. Мы занимаемся реализацией черного и оцинкованного
         металлопроката</p>
-      <p> У нас большой ассортимент металлопроката. Большим спросом пользуется стальной лист, стальная труба, труба
+      <p> У нас большой ассортимент металлопроката. Высоким спросом пользуется стальной лист, стальная труба, труба
         бесшовная, труба профильная
         круг стальной, уголок стальной, шестигранник, квадрат стальной, полоса стальная</p>
       <p> Наши высококвалифицированные специалисты, могут оказать граммотную консультацию при покупке металлопроката</p>

@@ -321,7 +321,7 @@ nav {
 }
 
 .name-product {
-    font-weight: 600;
+    font-weight: 300;
     font-style: italic;
     line-height: 1.5;
 }
@@ -339,6 +339,13 @@ nav {
 .product-about {
     font-size: 30px;
     font-style: italic;
+}
+
+.product-about-li {
+    text-decoration-line: underline;
+    text-decoration-color: #08c1bf;
+    font-size: 35px;
+    list-style-type: none;
 }
 
 /* Модальное окно */
@@ -573,6 +580,25 @@ aside a:hover {
 .dropdown-menu {
     padding: 0;
     border: none;
+}
+
+.breadcrumb {
+    background-color: white;
+    margin-bottom: 0px;
+    padding-bottom: 0;
+    padding-left: 0;
+}
+.breadcrumb-link, .breadcrumb-link + span{
+    color: rgb(204, 201, 201);
+}
+
+.breadcrumb-link + span {
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+.breadcrumb-link-active, .breadcrumb-link:hover {
+    color: #08c1bf;
 }
 
 
