@@ -36,10 +36,10 @@
                <li class="nav-item flex-fill"><a href="/" class="flex-fill">Главная</a></li> 
                <!-- <li class="nav-item flex-fill"><a href="/about.php" class="flex-fill">О нас</a></li>  -->
                <li class="nav-item flex-fill drop-down-prod">
-                   <a href="/production.php" class="flex-fill">Продукция</a>
+                   <a href="/products" class="flex-fill">Продукция</a>
                    <ul class="drop-down-list nav ">
-                    <li class="nav-item flex-fill"><a href="blocks/products/steellist.php" class="flex-fill">Стальной лист</a></li>
-                    <li class="nav-item flex-fill"><a href="blocks/products/steellist.php" class="flex-fill">Труба стальная</a></li> 
+                    <li class="nav-item flex-fill"><a href="/products/steellist.php" class="flex-fill">Стальной лист</a></li>
+                    <li class="nav-item flex-fill"><a href="/products/steel-round-tube.php" class="flex-fill">Труба стальная</a></li> 
                     <li class="nav-item flex-fill"><a href="/products/steellist.php" class="flex-fill">Труба бесшовная</a></li> 
                     <li class="nav-item flex-fill"><a href="/products/steellist.php" class="flex-fill">Труба профильная</a></li> 
                     <li class="nav-item flex-fill"><a href="/products/steellist.php" class="flex-fill">Круг стальной</a></li> 
@@ -50,7 +50,7 @@
                     <li class="nav-item flex-fill"><a href="/products/steellist.php" class="flex-fill">Полоса стальная</a></li>
                    </ul>
                 </li> 
-               <li class="nav-item flex-fill"><a href="/contact.php" class="flex-fill">Контакты</a></li> 
+               <li class="nav-item flex-fill"><a href="/contact" class="flex-fill">Контакты</a></li> 
             </ul>
         </nav>
     </header>
