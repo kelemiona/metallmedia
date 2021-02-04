@@ -97,7 +97,7 @@
                     <a href="/" target="_blank">
                         <div class="card h-100">
                             <div class="b-200">
-                                <img src="img/products/list.jpg" class="card-img-top" alt="...">
+                                <img src="img/products/steel-angle.jpg" class="card-img-top" alt="...">
                             </div>
                             <div class="card-body">
                                 <p class="card-title">Уголок стальной</p>
@@ -109,7 +109,7 @@
                     <a href="/" target="_blank">
                         <div class="card h-100">
                             <div class="b-200">
-                                <img src="img/products/list.jpg" class="card-img-top" alt="...">
+                                <img src="img/products/steel-6.jpg" class="card-img-top" alt="...">
                             </div>
                             <div class="card-body">
                                 <p class="card-title">Шестигранник</p>
@@ -133,7 +133,7 @@
                     <a href="/" target="_blank">
                         <div class="card h-100">
                             <div class="b-200">
-                                <img src="img/products/list.jpg" class="card-img-top" alt="...">
+                                <img src="img/products/forging.png" class="card-img-top" alt="...">
                             </div>
                             <div class="card-body">
                                 <p class="card-title">Поковка</p>
@@ -145,7 +145,7 @@
                     <a href="/" target="_blank">
                         <div class="card h-100">
                             <div class="b-200">
-                                <img src="img/products/list.jpg" class="card-img-top" alt="...">
+                                <img src="img/products/stripe.jpg" class="card-img-top" alt="...">
                             </div>
                             <div class="card-body">
                                 <p class="card-title">Полоса стальная</p>
