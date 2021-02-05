@@ -16,7 +16,7 @@
                 <img src="/img/logo-silver2.png" alt="logo" class="my-auto">
             </div>
             <div class="phone d-none d-sm-block pr-0 pr-sm-4">
-                <p>+7-918-470-70-50</p>
+                <p><a class="mobile" href="tel:+79184707050">+7-918-470-70-50</a></p>
                 <a href="/about">г. Краснодар ул. Зоологическая д.35/1</a>
             </div>
             <h1 class="d-block d-sm-none">МеталлМедиа</h1>
@@ -38,16 +38,16 @@
                <li class="nav-item flex-fill drop-down-prod">
                    <a href="/products" class="flex-fill">Продукция</a>
                    <ul class="drop-down-list nav ">
-                    <li class="nav-item flex-fill"><a href="/products/steellist.php" class="flex-fill">Стальной лист</a></li>
-                    <li class="nav-item flex-fill"><a href="/products/steel-round-tube.php" class="flex-fill">Труба стальная</a></li> 
-                    <li class="nav-item flex-fill"><a href="/products/steellist.php" class="flex-fill">Труба бесшовная</a></li> 
-                    <li class="nav-item flex-fill"><a href="/products/steellist.php" class="flex-fill">Труба профильная</a></li> 
-                    <li class="nav-item flex-fill"><a href="/products/steellist.php" class="flex-fill">Круг стальной</a></li> 
-                    <li class="nav-item flex-fill"><a href="/products/steellist.php" class="flex-fill">Уголок стальной</a></li> 
-                    <li class="nav-item flex-fill"><a href="/products/steellist.php" class="flex-fill">Шестигранник</a></li> 
-                    <li class="nav-item flex-fill"><a href="/products/steellist.php" class="flex-fill">Квадрат стальной</a></li> 
-                    <li class="nav-item flex-fill"><a href="/products/steellist.php" class="flex-fill">Поковка</a></li>
-                    <li class="nav-item flex-fill"><a href="/products/steellist.php" class="flex-fill">Полоса стальная</a></li>
+                        <li class="nav-item flex-fill"><a href="/products/steellist.php" class="flex-fill">Стальной лист</a></li>
+                        <li class="nav-item flex-fill"><a href="/products/steel-round-tube.php" class="flex-fill">Труба стальная</a></li> 
+                        <li class="nav-item flex-fill"><a href="/products/steellist.php" class="flex-fill">Труба бесшовная</a></li> 
+                        <li class="nav-item flex-fill"><a href="/products/steellist.php" class="flex-fill">Труба профильная</a></li> 
+                        <li class="nav-item flex-fill"><a href="/products/steellist.php" class="flex-fill">Круг стальной</a></li> 
+                        <li class="nav-item flex-fill"><a href="/products/steellist.php" class="flex-fill">Уголок стальной</a></li> 
+                        <li class="nav-item flex-fill"><a href="/products/steellist.php" class="flex-fill">Шестигранник</a></li> 
+                        <li class="nav-item flex-fill"><a href="/products/steellist.php" class="flex-fill">Квадрат стальной</a></li> 
+                        <li class="nav-item flex-fill"><a href="/products/steellist.php" class="flex-fill">Поковка</a></li>
+                        <li class="nav-item flex-fill"><a href="/products/steellist.php" class="flex-fill">Полоса стальная</a></li>
                    </ul>
                 </li> 
                <li class="nav-item flex-fill"><a href="/contact" class="flex-fill">Контакты</a></li> 
