@@ -23,7 +23,7 @@ if (!empty($urls) && $cur_url != '/') {
                 break;
             case 'steel-round-tube.php' : $crumbs[$key]['text'] = 'Труба стальная';
                 break;
-            case 'portfolio' : $crumbs[$key]['text'] = 'Наши работы';
+            case 'seamless-tube.php' : $crumbs[$key]['text'] = 'Труба бесшовная';
                 break;
             case 'prices' : $crumbs[$key]['text'] = 'Цены';
                 break;

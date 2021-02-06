@@ -40,7 +40,7 @@
                    <ul class="drop-down-list nav ">
                         <li class="nav-item flex-fill"><a href="/products/steellist.php" class="flex-fill">Стальной лист</a></li>
                         <li class="nav-item flex-fill"><a href="/products/steel-round-tube.php" class="flex-fill">Труба стальная</a></li> 
-                        <li class="nav-item flex-fill"><a href="/products/steellist.php" class="flex-fill">Труба бесшовная</a></li> 
+                        <li class="nav-item flex-fill"><a href="/products/seamless-tube.php" class="flex-fill">Труба бесшовная</a></li> 
                         <li class="nav-item flex-fill"><a href="/products/steellist.php" class="flex-fill">Труба профильная</a></li> 
                         <li class="nav-item flex-fill"><a href="/products/steellist.php" class="flex-fill">Круг стальной</a></li> 
                         <li class="nav-item flex-fill"><a href="/products/steellist.php" class="flex-fill">Уголок стальной</a></li> 

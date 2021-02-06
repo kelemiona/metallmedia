@@ -17,6 +17,7 @@ document.addEventListener('DOMContentLoaded', () => {
         for (let i = 0; i < links.length; i++) {
             if (url == links[i].href) {
                 links[i].classList.add('active-link');
+               // document.title = links[i].href;
             };
         };
     })();
