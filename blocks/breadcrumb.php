@@ -25,7 +25,9 @@ if (!empty($urls) && $cur_url != '/') {
                 break;
             case 'seamless-tube.php' : $crumbs[$key]['text'] = 'Труба бесшовная';
                 break;
-            case 'prices' : $crumbs[$key]['text'] = 'Цены';
+            case 'profiled-tube.php' : $crumbs[$key]['text'] = 'Труба профильная';
+                break;
+            case 'steel-round-bar.php' : $crumbs[$key]['text'] = 'Круг стальной';
                 break;
             default : $crumbs[$key]['text'] = 'Главная страница';
                 break;

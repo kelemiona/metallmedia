@@ -70,7 +70,7 @@
                     </a>
                 </div>
                 <div class="col mb-4 product-card pipes">
-                    <a href="/" target="_blank">
+                    <a href="/products/profiled-tube.php" target="_blank">
                         <div class="card h-100">
                             <div class="b-200">
                                 <img src="img/products/steel-rectangular.jpg" class="card-img-top" alt="...">
@@ -82,7 +82,7 @@
                     </a>
                 </div>
                 <div class="col mb-4 product-card circles">
-                    <a href="/" target="_blank">
+                    <a href="/products/steel-round-bar.php" target="_blank">
                         <div class="card h-100">
                             <div class="b-200">
                                 <img src="img/products/steel-round-bar.jpg" class="card-img-top" alt="...">
