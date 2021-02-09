@@ -143,6 +143,18 @@ nav {
     z-index: 99;
     transition: 0.8s all;
 }
+
+.icons {
+    height: 25px;
+    padding-right: 10px;
+    filter: invert(1);
+}
+
+.icons-title {
+    height: 40px;
+    margin-top: 10px;
+    margin-right: 10px;
+}
 /*Кнопка закрытия/открытия навбара*/
 
 .spinner {
@@ -340,9 +352,11 @@ nav {
 }
 
 .image-product {
-    max-width: 600px;
-    max-height: 600px;
+    max-width: 400px;
+    max-height: 400px;
     width: 100%;
+    display: block;
+    margin: 0 auto;
 }
 .product-about, .product-about-text {
     font-size: 20px;

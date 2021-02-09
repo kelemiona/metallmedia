@@ -34,7 +34,7 @@
         <section class="production back-light-grey text-center">
             <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3">
                 <div class="col mb-4 product-card lists">
-                    <a href="products/steellist.php" >
+                    <a href="products/steellist.php">
                         <div class="card h-100">
                             <div class="b-200">
                                 <img src="img/products/list.jpg" class="card-img-top" alt="...">
@@ -46,7 +46,7 @@
                     </a>
                 </div>
                 <div class="col mb-4 product-card pipes">
-                    <a href="/products/steel-round-tube.php" >
+                    <a href="/products/steel-round-tube.php">
                         <div class="card h-100">
                             <div class="b-200">
                                 <img src="img/products/round-tube.jpg" class="card-img-top" alt="...">
@@ -58,7 +58,7 @@
                     </a>
                 </div>
                 <div class="col mb-4 product-card pipes">
-                    <a href="/products/seamless-tube.php" target="_blank">
+                    <a href="/products/seamless-tube.php">
                         <div class="card h-100">
                             <div class="b-200">
                                 <img src="img/products/steel-tube-product.jpg" class="card-img-top" alt="...">
@@ -70,7 +70,7 @@
                     </a>
                 </div>
                 <div class="col mb-4 product-card pipes">
-                    <a href="/products/profiled-tube.php" target="_blank">
+                    <a href="/products/profiled-tube.php">
                         <div class="card h-100">
                             <div class="b-200">
                                 <img src="img/products/steel-rectangular.jpg" class="card-img-top" alt="...">
@@ -82,7 +82,7 @@
                     </a>
                 </div>
                 <div class="col mb-4 product-card circles">
-                    <a href="/products/steel-round-bar.php" target="_blank">
+                    <a href="/products/steel-round-bar.php">
                         <div class="card h-100">
                             <div class="b-200">
                                 <img src="img/products/steel-round-bar.jpg" class="card-img-top" alt="...">
@@ -94,7 +94,7 @@
                     </a>
                 </div>
                 <div class="col mb-4 product-card corners">
-                    <a href="/" target="_blank">
+                    <a href="/products/steel-angle.php">
                         <div class="card h-100">
                             <div class="b-200">
                                 <img src="img/products/steel-angle.jpg" class="card-img-top" alt="...">
@@ -106,7 +106,7 @@
                     </a>
                 </div>
                 <div class="col mb-4 product-card hexagon">
-                    <a href="/" target="_blank">
+                    <a href="/products/steel-hexagon.php">
                         <div class="card h-100">
                             <div class="b-200">
                                 <img src="img/products/steel-6.jpg" class="card-img-top" alt="...">
@@ -118,7 +118,7 @@
                     </a>
                 </div>
                 <div class="col mb-4 product-card square">
-                    <a href="/" target="_blank">
+                    <a href="/products/steel-square.php" >
                         <div class="card h-100">
                             <div class="b-200">
                                 <img src="img/products/steel-square.jpg" class="card-img-top" alt="...">

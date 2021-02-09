@@ -38,16 +38,16 @@
                <li class="nav-item flex-fill drop-down-prod">
                    <a href="/products" class="flex-fill">Продукция</a>
                    <ul class="drop-down-list nav ">
-                        <li class="nav-item flex-fill"><a href="/products/steellist.php" class="flex-fill">Стальной лист</a></li>
-                        <li class="nav-item flex-fill"><a href="/products/steel-round-tube.php" class="flex-fill">Труба стальная</a></li> 
-                        <li class="nav-item flex-fill"><a href="/products/seamless-tube.php" class="flex-fill">Труба бесшовная</a></li> 
-                        <li class="nav-item flex-fill"><a href="/products/profiled-tube.php" class="flex-fill">Труба профильная</a></li> 
-                        <li class="nav-item flex-fill"><a href="/products/steel-round-bar.php" class="flex-fill">Круг стальной</a></li> 
-                        <li class="nav-item flex-fill"><a href="/products/steellist.php" class="flex-fill">Уголок стальной</a></li> 
-                        <li class="nav-item flex-fill"><a href="/products/steellist.php" class="flex-fill">Шестигранник</a></li> 
-                        <li class="nav-item flex-fill"><a href="/products/steellist.php" class="flex-fill">Квадрат стальной</a></li> 
-                        <li class="nav-item flex-fill"><a href="/products/steellist.php" class="flex-fill">Поковка</a></li>
-                        <li class="nav-item flex-fill"><a href="/products/steellist.php" class="flex-fill">Полоса стальная</a></li>
+                        <li class="nav-item flex-fill"><a href="/products/steellist.php" class="flex-fill"> <img src="/img/products/icons/list.png" class="icons" alt=""> Стальной лист</a></li>
+                        <li class="nav-item flex-fill"><a href="/products/steel-round-tube.php" class="flex-fill"><img src="/img/products/icons/tube-vgp.png" class="icons" alt="">Труба стальная</a></li> 
+                        <li class="nav-item flex-fill"><a href="/products/seamless-tube.php" class="flex-fill"><img src="/img/products/icons/tube.png" class="icons" alt="">Труба бесшовная</a></li> 
+                        <li class="nav-item flex-fill"><a href="/products/profiled-tube.php" class="flex-fill"><img src="/img/products/icons/tube-prof.png" class="icons" alt="">Труба профильная</a></li> 
+                        <li class="nav-item flex-fill"><a href="/products/steel-round-bar.php" class="flex-fill"><img src="/img/products/icons/round-bar.png" class="icons" alt="">Круг стальной</a></li> 
+                        <li class="nav-item flex-fill"><a href="/products/steel-angle.php" class="flex-fill"><img src="/img/products/icons/angle.png" class="icons" alt="">Уголок стальной</a></li> 
+                        <li class="nav-item flex-fill"><a href="/products/steel-hexagon.php" class="flex-fill"><img src="/img/products/icons/hexagon.png" class="icons" alt="">Шестигранник</a></li> 
+                        <li class="nav-item flex-fill"><a href="/products/steel-square.php" class="flex-fill"><img src="/img/products/icons/square.png" class="icons" alt="">Квадрат стальной</a></li> 
+                        <li class="nav-item flex-fill"><a href="/products/steellist.php" class="flex-fill"><img src="/img/products/icons/forging.png" class="icons" alt="">Поковка</a></li>
+                        <li class="nav-item flex-fill"><a href="/products/steellist.php" class="flex-fill"><img src="/img/products/icons/stripe.png" class="icons" alt="">Полоса стальная</a></li>
                    </ul>
                 </li> 
                <li class="nav-item flex-fill"><a href="/contact" class="flex-fill">Контакты</a></li> 

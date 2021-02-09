@@ -2,7 +2,8 @@
 
 <div class="pl-0 container-xl mx-auto">
 <?php include ("../breadcrumb.php") ?>
-    <h1 class="mt-1 mt-sm-3 name-page name-product ">Труба бесшовная</h1>
+    <img src="/img/products/icons/tube.png" class="icons-title"  align="left" alt="">
+    <h1 class=" name-page name-product ">Труба бесшовная</h1>
 </div>
 <div class="row container-xl back-light-grey mx-auto my-sm-2">
     <div class="col-12 col-sm-6 pt-4">

@@ -29,6 +29,12 @@ if (!empty($urls) && $cur_url != '/') {
                 break;
             case 'steel-round-bar.php' : $crumbs[$key]['text'] = 'Круг стальной';
                 break;
+            case 'steel-angle.php' : $crumbs[$key]['text'] = 'Уголок стальной';
+                break;
+            case 'steel-hexagon.php' : $crumbs[$key]['text'] = 'Шестигранник';
+                break;
+            case 'steel-square.php' : $crumbs[$key]['text'] = 'Квадрат стальной';
+                break;
             default : $crumbs[$key]['text'] = 'Главная страница';
                 break;
         }
@@ -37,21 +43,21 @@ if (!empty($urls) && $cur_url != '/') {
 
 
 ?>
-<section id = "breadcrumb">
-            <?php if (!empty($crumbs)) { ?>
-                <ul class="breadcrumb">
-                    <?php foreach ($crumbs as $item) { ?>
-                        <?php if (isset($item)) { ?>
-                        <li>
-                                <?php if (!empty($item['url'])) { ?>
-                                    <a class="breadcrumb-link" href="<?php echo $item['url'] ?>"><?php echo $item['text'] ?></a><span>/</span>
-                                <?php } else { ?>
-                                    <span class="breadcrumb-link-active"> <?php echo  $item['text'] ?> </span> 
-                                <?php } ?>
-                        </li>
-                        <?php } ?>
-                        
-                    <?php } ?>
-                </ul>
+<section id="breadcrumb">
+    <?php if (!empty($crumbs)) { ?>
+    <ul class="breadcrumb">
+        <?php foreach ($crumbs as $item) { ?>
+        <?php if (isset($item)) { ?>
+        <li>
+            <?php if (!empty($item['url'])) { ?>
+            <a class="breadcrumb-link" href="<?php echo $item['url'] ?>"><?php echo $item['text'] ?></a><span>/</span>
+            <?php } else { ?>
+            <span class="breadcrumb-link-active"> <?php echo  $item['text'] ?> </span>
             <?php } ?>
+        </li>
+        <?php } ?>
+
+        <?php } ?>
+    </ul>
+    <?php } ?>
 </section>

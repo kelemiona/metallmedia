@@ -2,6 +2,7 @@
 
 <div class="pl-0 container-xl mx-auto">
 <?php include ("../breadcrumb.php") ?>
+    <img src="/img/products/icons/round-bar.png" class="icons-title"  align="left" alt="">
     <h1 class="name-page name-product">Круг стальной</h1>
 </div>
 <div class="row container-xl back-light-grey mx-auto my-sm-2">
