@@ -247,6 +247,11 @@ nav {
     border: 2px solid #08c1bf;
 }
 
+.contact-us-button:hover {
+    background-color:  #08c1bf;
+    color: white;
+} 
+
 /*Секция о нас*/
 .image-about img {
     max-width: 100%;
