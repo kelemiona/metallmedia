@@ -35,6 +35,10 @@ if (!empty($urls) && $cur_url != '/') {
                 break;
             case 'steel-square.php' : $crumbs[$key]['text'] = 'Квадрат стальной';
                 break;
+            case 'steel-forging.php' : $crumbs[$key]['text'] = 'Поковка';
+                break;
+            case 'steel-stripe.php' : $crumbs[$key]['text'] = 'Стальная полоса';
+                break;
             default : $crumbs[$key]['text'] = 'Главная страница';
                 break;
         }

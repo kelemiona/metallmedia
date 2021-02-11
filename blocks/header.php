@@ -46,8 +46,8 @@
                         <li class="nav-item flex-fill"><a href="/products/steel-angle.php" class="flex-fill"><img src="/img/products/icons/angle.png" class="icons" alt="">Уголок стальной</a></li> 
                         <li class="nav-item flex-fill"><a href="/products/steel-hexagon.php" class="flex-fill"><img src="/img/products/icons/hexagon.png" class="icons" alt="">Шестигранник</a></li> 
                         <li class="nav-item flex-fill"><a href="/products/steel-square.php" class="flex-fill"><img src="/img/products/icons/square.png" class="icons" alt="">Квадрат стальной</a></li> 
-                        <li class="nav-item flex-fill"><a href="/products/steellist.php" class="flex-fill"><img src="/img/products/icons/forging.png" class="icons" alt="">Поковка</a></li>
-                        <li class="nav-item flex-fill"><a href="/products/steellist.php" class="flex-fill"><img src="/img/products/icons/stripe.png" class="icons" alt="">Полоса стальная</a></li>
+                        <li class="nav-item flex-fill"><a href="/products/steel-forging.php" class="flex-fill"><img src="/img/products/icons/forging.png" class="icons" alt="">Поковка</a></li>
+                        <li class="nav-item flex-fill"><a href="/products/steel-stripe.php" class="flex-fill"><img src="/img/products/icons/stripe.png" class="icons" alt="">Полоса стальная</a></li>
                    </ul>
                 </li> 
                <li class="nav-item flex-fill"><a href="/contact" class="flex-fill">Контакты</a></li> 
