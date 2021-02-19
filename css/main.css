@@ -242,6 +242,11 @@ nav {
 
 }
 
+.info a {
+    color: black;
+    text-decoration: underline #08c1bf;
+}
+
 .contact-us-button {
     background-color: rgba(252, 250, 250, 0.671);
     border: 2px solid #08c1bf;
@@ -380,6 +385,30 @@ nav {
     list-style-type: none;
 }
 
+.icons-card {
+    height: 35px;
+    /* margin-top: 10px; */
+    margin-right: 10px;
+}
+.small-card {
+    border: 1px solid #e8e8e8;
+
+}
+.small-card a {
+    padding: 20px 10px;
+    width: 240px;
+    display: block;
+    color: black;
+}
+.small-card a:hover {
+    text-decoration: none;
+    background-color: rgba(233, 230, 230, 0.589);
+    color:#08c1bf;
+    font-weight: 500;
+}
+.small-cards-product .container-xl {
+    padding: 0;
+}
 /* Модальное окно */
 
 .modal-content {
@@ -699,11 +728,24 @@ aside a:hover {
 
     .name-page {
         font-size: 25px;
+        margin-top: 5px;
     }
 
     .drop-down-prod:hover  .drop-down-list, .drop-down-prod:hover  .drop-down-list li  {
         display: none;
     }
+
+    .icons-title {
+        height: 30px;
+        margin-top: 5px;
+        margin-left: 5px;
+    }
+
+    #breadcrumb {
+        display: none;
+    }
+
+
 }
 
 @media (min-width: 576px) and (max-width: 767.98px) {

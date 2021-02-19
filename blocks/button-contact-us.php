@@ -9,7 +9,7 @@
           </button>
         </div>
         <div class="modal-body ">
-          <form action="">
+          <form action="" method="POST">
           <div class="d-flex lign-content-start flex-wrap"> 
                 <div class="name-input mx-auto mb-2">
                   <input type="text" name="name" id="name" placeholder="Ваше имя">

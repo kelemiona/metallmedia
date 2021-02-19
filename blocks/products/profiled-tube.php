@@ -1,6 +1,6 @@
 <?php include ("../header.php") ?>
 
-<div class="pl-0 container-xl mx-auto">
+<div class=" container-xl mx-auto">
 <?php include ("../breadcrumb.php") ?>
     <img src="/img/products/icons/tube-prof.png" class="icons-title"  align="left" alt="">
     <h1 class="name-page name-product">Труба профильная</h1>
