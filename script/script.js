@@ -8,12 +8,10 @@ document.addEventListener('DOMContentLoaded', () => {
     const url = document.location.href;
     const splitUrl = url.split("/");
     const sendButton = document.querySelector('.send-form');
+    // const modal = new  bootstrap.Modal(document.querySelector('.modal'), {
+    //     keyboard: false
+    //   });
 
-    const sendName = document.getElementById('name');
-    const sendPhone = document.getElementById('phone');
-    const sendEmail = document.getElementById('email');
-
-console.log(sendPhone);
 
     toggle.addEventListener('click', () => {
         toggle.classList.toggle('active');
@@ -69,8 +67,6 @@ console.log(sendPhone);
                             document.title = "МеталлМедиа: Купить металл в Краснодаре";
                     } 
                 }
-                // document.title = url.split("/")[1];
-                // console.log(url.split("/"));
             };
         };
     })();
@@ -81,8 +77,9 @@ console.log(sendPhone);
         var request = new XMLHttpRequest();
         request.onreadystatechange = function() { 
             if (this.readyState === XMLHttpRequest.DONE && this.status === 200) {
-              // success, show this.responseText here
+              alert("Данные успешно отправлены");
               console.log("SUCCESS", this);
+              $(".modal").modal("hide");
           }
         }
         
@@ -92,9 +89,9 @@ console.log(sendPhone);
         const sendName = this.querySelector('[name="name"]');
         const sendPhone = this.querySelector('[name="phone"]');
         const sendEmail = this.querySelector('[name="email"]');
-
-          
-        request.send('name=' + encodeURIComponent(sendName.value) + '&phone='  + encodeURIComponent(sendPhone.value) + '&email='  + encodeURIComponent(sendEmail.value));
+        const sendSelect = this.querySelector('[name="select"]');
+         
+        request.send('name=' + encodeURIComponent(sendName.value) + '&phone='  + encodeURIComponent(sendPhone.value) + '&email='  + encodeURIComponent(sendEmail.value) + '&select='  + encodeURIComponent(sendSelect.value));
       }
       
       document.querySelectorAll("form").forEach(form =>

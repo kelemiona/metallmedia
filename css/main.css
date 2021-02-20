@@ -446,7 +446,7 @@ nav {
 }
 
 .write-us input,
-.send-form {
+.send-form, .options {
     margin: 5px 5px;
     border: 1px solid #cccccc;
     border-radius: 25px;
@@ -460,8 +460,14 @@ nav {
     padding: 0 40px;
 }
 
-.send-form {
+.send-form, .options{
     color: #f0f0f0;
+}
+
+.options option {
+    color: black;
+    margin: 5px 5px;
+    padding: 5px 5px;
 }
 
 .send-form i {

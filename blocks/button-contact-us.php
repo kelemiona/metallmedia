@@ -12,16 +12,32 @@
           <form action="/send.php" method="POST">
           <div class="d-flex lign-content-start flex-wrap"> 
                 <div class="name-input mx-auto mb-2">
-                  <input type="text" name="name" id="name" placeholder="Ваше имя">
+                  <input type="text" name="name" id="name" placeholder="Ваше имя" required>
                   <i class="fal fa-user-circle fa-2x"></i>
                 </div>
                 <div class="tel-input mx-auto mb-2">
-                  <input type="tel" name="phone" id="phone" placeholder="Ваш телефонyy">
+                  <input type="tel" name="phone" id="phone" placeholder="Ваш телефон" required>
                   <i class="fal fa-phone-alt fa-2x"></i>
                 </div>
                 <div class="email-input mx-auto mb-2">
-                  <input type="email" name="email" id="email" placeholder="Ваш e-mail">
+                  <input type="email" name="email" id="email" placeholder="Ваш e-mail" required>
                   <i class="fal fa-at fa-2x"></i>
+                </div>
+                <div class="email-input mx-auto mb-2">
+                <select name="select" class="options">
+                  <option selected disabled>Вас интересует</option>
+                  <option value="Стальной лист">Стальной лист</option>
+                  <option value="Профильные трубы">Профильные трубы</option>
+                  <option value="Стальные трубы">Стальные трубы</option>
+                  <option value="Трубы бесшовные">Трубы бесшовные</option>
+                  <option value="Круг стальной">Круг стальной</option>
+                  <option value="Уголок стальной">Уголок стальной</option>
+                  <option value="Шестигранник">Шестигранник</option>
+                  <option value="Квадрат стальной">Квадрат стальной</option>
+                  <option value="Поковка">Поковка</option>
+                  <option value="Полоса стальная">Полоса стальная</option>
+                </select>    
+                <i class="fad fa-list-ul"></i>          
                 </div>
                 <div class="mx-auto mb-3">
                   <button class="send-form">Отправить <i class="fab fa-telegram-plane"></i></button>

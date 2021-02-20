@@ -9,7 +9,7 @@
       <a href="/products/profiled-tube.php">профильные трубы,</a>
       <a href="/products/steel-round-tube.php">стальные трубы,</a>
       <a href="/products/seamless-tube.php.php">трубы бесшовные,</a>
-      <a href="/products/steel-round-bar.php">кгруг стальной,</a>
+      <a href="/products/steel-round-bar.php">круг стальной,</a>
       <a href="/products/steel-angle.php">уголок стальной,</a>
       <a href="/products/steel-hexagon.php">шестигранник,</a>
       <a href="/products/steel-square.php">квадрат стальной,</a>

@@ -9,7 +9,7 @@
           </div>
           <div class="col-12 col-sm-6">
             <h4 class="d-block d-sm-none text-center">Оставьте заявку прямо сейчас!</h4>
-            <form action="">
+            <form action="/send.php" method="post">
               <div class="d-flex lign-content-start flex-wrap"> 
                 <div class="name-input mx-auto">
                   <input type="text" name="name" id="name" placeholder="Ваше имя">
@@ -26,6 +26,9 @@
                 <div class="mx-auto">
                   <button class="send-form">Отправить <i class="fab fa-telegram-plane"></i></button>
                 </div>
+                <select name="select" class="d-none">
+                  <option selected disabled>Заявка общего типа</option>
+                </select>
               </div>
             </form>
           </div>
