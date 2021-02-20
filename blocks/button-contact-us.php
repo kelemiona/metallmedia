@@ -9,14 +9,14 @@
           </button>
         </div>
         <div class="modal-body ">
-          <form action="" method="POST">
+          <form action="/send.php" method="POST">
           <div class="d-flex lign-content-start flex-wrap"> 
                 <div class="name-input mx-auto mb-2">
                   <input type="text" name="name" id="name" placeholder="Ваше имя">
                   <i class="fal fa-user-circle fa-2x"></i>
                 </div>
                 <div class="tel-input mx-auto mb-2">
-                  <input type="tel" name="phone" id="phone" placeholder="Ваш телефон">
+                  <input type="tel" name="phone" id="phone" placeholder="Ваш телефонyy">
                   <i class="fal fa-phone-alt fa-2x"></i>
                 </div>
                 <div class="email-input mx-auto mb-2">
