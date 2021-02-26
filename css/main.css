@@ -257,6 +257,22 @@ nav {
     color: white;
 } 
 
+.comment {
+    max-width: 640px;
+    max-height: 300px;
+    height: 95%;
+    width: 100%;
+    border: 1px solid #cccccc;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -khtml-border-radius: 10px;
+    background-color: #cccccc38;
+    outline: none;
+    color: white;
+    padding-left: 10px;
+}
+
 /*Секция о нас*/
 .image-about img {
     max-width: 100%;
@@ -412,7 +428,7 @@ nav {
 /* Модальное окно */
 
 .modal-content {
-    width: 350px;
+    min-width: 640px;
 }
 .modal-title, .close {
     color: #08c1bf;
@@ -751,6 +767,10 @@ aside a:hover {
         display: none;
     }
 
+    .modal-content {
+        min-width: 300px;
+    }
+
 
 }
 
@@ -774,6 +794,10 @@ aside a:hover {
     .product-about, .product-about-text {
         font-size: 20px;
     }
+
+    .modal-dialog {
+        max-width: 640px;
+    }
 }
 
 @media (min-width: 768px) and (max-width: 991.98px) {
@@ -795,6 +819,9 @@ aside a:hover {
     .product-about-li {
         font-size: 27px
     }
+    .modal-dialog {
+        max-width: 640px;
+    }
 
 }
 
@@ -802,11 +829,17 @@ aside a:hover {
     .head .phone p {
         font-size: 30px;
     }
+    .modal-dialog {
+        max-width: 640px;
+    }
     
 }
 
 @media (min-width: 1200px) {
     .logo img {
         width: 30vw;
+    }
+    .modal-dialog {
+        max-width: 640px;
     }
 }
