@@ -24,7 +24,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 if (splitUrl[3] == 'products') {
                     switch (splitUrl[4]) {
                         case 'steellist.php': 
-                            document.title = "12Купить стальной лист в Краснодаре";
+                            document.title = "Купить стальной лист в Краснодаре";
                             break;
                         case 'steel-round-tube.php': 
                             document.title = "Купить стальную трубу в Краснодаре";
@@ -57,13 +57,7 @@ document.addEventListener('DOMContentLoaded', () => {
                             document.title = "Каталог товаров МеталлМедиа";
                     }
                 } else {
-                    switch (splitUrl[3]) {               
-                        case 'contact': 
-                            document.title = "Контактная информация МеталлМедиа";
-                            break;
-                        default: 
-                            document.title = "МеталлМедиа: Купить металл в Краснодаре";
-                    } 
+ 
                 }
             };
         };

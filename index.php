@@ -1,6 +1,5 @@
 <?php include ("blocks/top-header.php") ?>
 <title>МеталлМедиа - комплексная поставка металлопроката в Красноадаре и крае.</title>
-<meta name="description" content="" />
 <meta name="keywords" content="" />
 <?php include ("blocks/header.php") ?>
 <div itemscope itemtype="http://schema.org/Organization">
@@ -37,34 +36,34 @@
       <h3 class="name-block">Наша продукция</h3>
       <div class="container-xl py-3 mx-auto d-flex flex-wrap justify-content-center">
       <div class="small-card ">
-        <a href="/products/steellist.php"><img src="/img/products/icons/list.png" class="icons-card" alt=""> Стальной лист</a>
+        <a href="/products/steellist.php"><img src="/img/products/icons/list.png" class="icons-card" alt="Стальной лист">Стальной лист</a>
       </div>
       <div class="small-card">
-        <a href="/products/steel-round-tube.php"><img src="/img/products/icons/tube-vgp.png" alt="" class="icons-card" >Труба стальная</a>
+        <a href="/products/steel-round-tube.php"><img src="/img/products/icons/tube-vgp.png" alt="Труба стальная" class="icons-card" >Труба стальная</a>
       </div>
       <div class="small-card">
-        <a href="/products/seamless-tube.php"><img src="/img/products/icons/tube.png" alt="" class="icons-card" >Труба бесшовная</a>
+        <a href="/products/seamless-tube.php"><img src="/img/products/icons/tube.png" alt="Труба бесшовная" class="icons-card" >Труба бесшовная</a>
       </div>
       <div class="small-card">
-        <a href="/products/profiled-tube.php"><img src="/img/products/icons/tube-prof.png" alt="" class="icons-card" >Труба профильная</a>
+        <a href="/products/profiled-tube.php"><img src="/img/products/icons/tube-prof.png" alt="Труба профильная" class="icons-card" >Труба профильная</a>
       </div>
       <div class="small-card">
-        <a href="/products/steel-round-bar.php"><img src="/img/products/icons/round-bar.png" alt="" class="icons-card" >Круг стальной</a>
+        <a href="/products/steel-round-bar.php"><img src="/img/products/icons/round-bar.png" alt="Круг стальной" class="icons-card" >Круг стальной</a>
       </div>
       <div class="small-card">
-        <a href="/products/steel-angle.php"><img src="/img/products/icons/angle.png" alt="" class="icons-card" >Уголок стальной</a>
+        <a href="/products/steel-angle.php"><img src="/img/products/icons/angle.png" alt="Уголок стальной" class="icons-card" >Уголок стальной</a>
       </div>
       <div class="small-card">
-        <a href="/products/steel-hexagon.php"><img src="/img/products/icons/hexagon.png" alt="" class="icons-card" >Шестигранник</a>
+        <a href="/products/steel-hexagon.php"><img src="/img/products/icons/hexagon.png" alt="Шестигранник" class="icons-card" >Шестигранник</a>
       </div>
       <div class="small-card">
-        <a href="/products/steel-square.php"><img src="/img/products/icons/square.png" alt="" class="icons-card" >Квадрат стальной</a>
+        <a href="/products/steel-square.php"><img src="/img/products/icons/square.png" alt="Квадрат стальной" class="icons-card" >Квадрат стальной</a>
       </div>
       <div class="small-card">
-        <a href="/products/steel-forging.php"><img src="/img/products/icons/forging.png" alt="" class="icons-card" >Поковка</a>
+        <a href="/products/steel-forging.php"><img src="/img/products/icons/forging.png" alt="Поковка" class="icons-card" >Поковка</a>
       </div>
       <div class="small-card">
-        <a href="/products/steel-stripe.php"><img src="/img/products/icons/stripe.png" alt="" class="icons-card" >Полоса стальная</a>
+        <a href="/products/steel-stripe.php"><img src="/img/products/icons/stripe.png" alt="Полоса стальная" class="icons-card" >Полоса стальная</a>
       </div>
     </div>
   </section>
@@ -76,7 +75,7 @@
         <img src="/img/tube-bende.jpg" alt="work-image">
       </div>
       <div class="text-about col-sm-6">
-        <p > Компания "МеталлМедиа" существует на Краснодарском рынке уже 5 лет, и за это время успела зарекомендовать себя в качестве надежного поставщика металлопроката. Мы занимаемся реализацией черного и оцинкованного металлопроката. Наш основной склад находится по адрессу <span itemprop="address"> г. Краснодар ул. Зоологическая д.35/1 </span>. График работы: <span itemprop="openingHours" datetime="Mo-Fr 9:00−17:00"> по будням с 9.00 до 17.00.</span></p>
+        <p> <span itemprop="description"> Компания "МеталлМедиа" существует на Краснодарском рынке уже 5 лет, и за это время успела зарекомендовать себя в качестве надежного поставщика металлопроката. Мы занимаемся реализацией черного и оцинкованного металлопроката.</span> Наш основной склад находится по адрессу <span itemprop="address"> г. Краснодар ул. Зоологическая д.35/1 </span>. График работы: <span itemprop="openingHours" datetime="Mo-Fr 9:00−17:00"> по будням с 9.00 до 17.00.</span></p>
         <p> У нас большой ассортимент металлопроката. Высоким спросом пользуется стальной лист, стальная труба, труба бесшовная, труба профильная, круг стальной, уголок стальной, шестигранник, квадрат стальной, полоса стальная.</p>
         <p>В нашем каталоге перечислены основные позиии металлопроката, если Вы что-то не смогли найти, это не значит, что мы не сможем Вам это поставить. В случае необходимости приобретения редких или дефицитных изделий, мы можем изготовить необходимое изделие под заказ. </p>
         <p> Наши высококвалифицированные специалисты, могут оказать граммотную консультацию при покупке металлопроката</p>
