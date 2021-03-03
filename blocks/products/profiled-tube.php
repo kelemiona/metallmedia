@@ -10,7 +10,7 @@
         <img src="../../img/products/steel-rectangular.jpg" class="image-product" alt="">
     </div>
     <div class="col-12 col-sm-6 pt-4">
-        <ul>
+        <ul class="product-about-ul">
             <li class="product-about product-about-li">Труба квадратная</li>
             <p class="product-about">Размер: 10*10мм - 400*400мм</p>
             <p class="product-about">по ГОСТ 8639-82</p>

@@ -10,7 +10,7 @@
         <img src="../../img/products/steel-tube-product.jpg" class="image-product" alt="">
     </div>
     <div class="col-12 col-sm-6 pt-4">
-        <ul>
+        <ul class="product-about-ul">
             <li class="product-about product-about-li">Труба горячедеформированная</li>
             <p class="product-about">Диаметр: от 38мм до 800мм </p>
             <p class="product-about">Виды стали для изготовления: ст.10, ст.20, ст.12Х1МФ, ст.40Х, ст.30ХГСА, ст.35, ст.09Г2С, ст.45</p>

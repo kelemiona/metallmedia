@@ -771,6 +771,31 @@ aside a:hover {
         min-width: 300px;
     }
 
+    p {
+        margin-bottom: 0.5rem;
+    }
+
+    .image-product {
+        max-width: 250px;
+        max-height: 250px;
+    }
+
+    .product-about-ul {
+        padding-left: 0;
+    }
+    .nav-sm {
+        position: absolute;
+        width: 100%;
+        z-index: 10;
+    }
+    .small-card  a {
+        width: 150px;
+        font-size: 14px;
+        text-align: center;
+    }
+    .icons-card {
+        height: 15px;
+    }
 
 }
 

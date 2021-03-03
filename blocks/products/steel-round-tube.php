@@ -10,7 +10,7 @@
         <img src="../../img/products/round-tube.jpg" class="image-product" alt="">
     </div>
     <div class="col-12 col-sm-6 pt-4">
-        <ul>
+        <ul class="product-about-ul">
             <li class="product-about product-about-li">Труба ВГП</li>
             <p class="product-about">Диаметр: от 15мм до 100мм </p>
             <p class="product-about">по ГОСТУ 3262-78</p>

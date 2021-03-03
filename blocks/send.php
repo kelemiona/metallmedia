@@ -10,15 +10,13 @@ $to = "389195212@mail.ru";
 
 $subject = "Новая заявка на сайте \'МеталлМедиа\'";
 
- $message = "Новая заявка на сайте: \n Имя: ".$name.", почта: ".$from.", телефон: ".$phone.", интересуется: ".$theme.", комментарий: ".$comment.". ";
-// $message = wordwrap($message, 70, "\r\n");
+$message = " <h1> Новая заявка на сайте:</h1> \n </br> <p> <b>  Имя: </b>  ".$name.", </br> </p> <p><b> Почта: </b> ".$from.", </br> </p> <p> <b> Контактный телефон: </b>".$phone.", </br> </p> <p> <b> Интересуется: </b>".$theme.", </br> </p> <p> <b> Комментарий: </b>".$comment.".</p>";
+$message = wordwrap($message, 70, "\r\n");
 
-// $headers  = "Content-type: text/html; charset=windows-1251 \r\n"; 
-// $headers .= "From: От кого письмо <from@example.com>\r\n"; 
-// $headers .= "Reply-To: reply-to@example.com\r\n"; 
+$headers  = "Content-type: text/html; charset=\"utf-8\" \r\n"; 
+$headers .= "From: От кого письмо <from@example.com>\r\n"; 
+$headers .= "Reply-To: reply-to@example.com\r\n"; 
 
-// mail($to, $subject, $message, $headers); 
-
-echo $message;
+mail($to, $subject, $message, $headers); 
 
 ?>

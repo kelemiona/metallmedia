@@ -24,6 +24,5 @@
 
 </div>
 
-
-<?php include ("../footer.php") ?>
 <script src="../../script/script.js"></script>
+<?php include ("../footer.php") ?>

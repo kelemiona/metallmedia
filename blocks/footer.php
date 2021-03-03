@@ -26,9 +26,10 @@
                 <div class="mx-auto">
                   <button class="send-form">Отправить <i class="fab fa-telegram-plane"></i></button>
                 </div>
-                <select name="select" class="d-none">
-                  <option selected disabled>Заявка общего типа</option>
-                </select>
+                <div class="d-none">
+                <input type="hidden" name="comment" value="Поле комментарий не предусмотрено">
+                <input type="hidden" name="select" value="Заявка из нижней части сайта">
+                </div>
               </div>
             </form>
           </div>

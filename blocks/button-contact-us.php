@@ -25,7 +25,7 @@
                 <input type="email" name="email" id="email" placeholder="Ваш e-mail" required>
                 <i class="fal fa-at fa-2x"></i>
               </div>
-              <div class="email-input mx-auto mb-2">
+              <div class="email-input mx-auto mb-2 d-none d-sm-block">
                 <select name="select" class="options">
                   <option selected disabled>Вас интересует</option>
                   <option value="Стальной лист">Стальной лист</option>
@@ -43,7 +43,7 @@
               </div>
           </div>
           <div class="col-sm-12 col-md-6 pr-md-4">
-                <textarea name="comment" class="comment" id="" placeholder="Введите Ваше сообщение здесь... "></textarea>
+                <textarea name="comment" class="comment" id="comment" placeholder="Введите Ваше сообщение здесь... "></textarea>
           </div>
           <div class="mx-auto mb-3">
             <button class="send-form">Отправить <i class="fab fa-telegram-plane"></i></button>

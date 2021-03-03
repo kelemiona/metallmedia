@@ -78,7 +78,7 @@ document.addEventListener('DOMContentLoaded', () => {
         request.onreadystatechange = function() { 
             if (this.readyState === XMLHttpRequest.DONE && this.status === 200) {
               alert("Данные успешно отправлены");
-              console.log("SUCCESS", this);
+            //   console.log("SUCCESS", this);
               $(".modal").modal("hide");
           }
         }
@@ -91,7 +91,7 @@ document.addEventListener('DOMContentLoaded', () => {
         const sendEmail = this.querySelector('[name="email"]');
         const sendSelect = this.querySelector('[name="select"]');
         const sendComment = this.querySelector('[name="comment"]');
-         
+
         request.send('name=' + encodeURIComponent(sendName.value) + '&phone='  + encodeURIComponent(sendPhone.value) + '&email='  + encodeURIComponent(sendEmail.value) + '&select='  + encodeURIComponent(sendSelect.value) + '&comment='  + encodeURIComponent(sendComment.value));
       }
       
