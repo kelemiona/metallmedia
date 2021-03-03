@@ -8,10 +8,8 @@ document.addEventListener('DOMContentLoaded', () => {
     const url = document.location.href;
     const splitUrl = url.split("/");
     const sendButton = document.querySelector('.send-form');
-    // const modal = new  bootstrap.Modal(document.querySelector('.modal'), {
-    //     keyboard: false
-    //   });
-
+    const metaKeywords = document.querySelector('meta[name="keywords"]');
+    const metaDescription = document.querySelector('meta[name="description"]');
 
     toggle.addEventListener('click', () => {
         toggle.classList.toggle('active');
@@ -26,7 +24,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 if (splitUrl[3] == 'products') {
                     switch (splitUrl[4]) {
                         case 'steellist.php': 
-                            document.title = "Купить стальной лист в Краснодаре";
+                            document.title = "12Купить стальной лист в Краснодаре";
                             break;
                         case 'steel-round-tube.php': 
                             document.title = "Купить стальную трубу в Краснодаре";
@@ -78,7 +76,6 @@ document.addEventListener('DOMContentLoaded', () => {
         request.onreadystatechange = function() { 
             if (this.readyState === XMLHttpRequest.DONE && this.status === 200) {
               alert("Данные успешно отправлены");
-            //   console.log("SUCCESS", this);
               $(".modal").modal("hide");
           }
         }

@@ -1,29 +1,33 @@
+<?php include ("blocks/top-header.php") ?>
+    <title>Контактная информация МеталлМедиа</title>
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
 <?php include ("blocks/header.php") ?>
 <div class="container-xl mx-auto">
     <h1 class="mt-1 mt-sm-3 name-page">Контакты</h1>
 </div>
 <section class="contact back-light-grey mt-1 mt-sm-3">
-    <div class="row py-3 py-sm-4 container-xl mx-auto ">
+    <div class="row py-3 py-sm-4 container-xl mx-auto" itemscope itemtype="http://schema.org/Organization">
         <div class="col-12 col-md-6">
         <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A1b409286e254f96b45c13667c72682cb52b950ee03fc092248c479d5adb6550c&amp;source=constructor"  frameborder="0"></iframe>
         </div>
         <div class="col-12 col-md-6 d-flex flex-wrap mx-auto">
             <div class="contact-adress text-center mx-auto">
                 <i class="fal fa-map-marker-alt fa-3x"></i> 
-                <p>г. Краснодар ул. Зоологическая д.35/1</p>
+                <p itemprop="address">г. Краснодар ул. Зоологическая д.35/1</p>
             </div>
             <div class="contact-tel text-center mx-auto">
                 <i class="fal fa-phone-alt fa-3x"></i>
-                <p>+7-918-470-70-50</p>
+                <p itemprop="telephone">+7-918-470-70-50</p>
             </div>
             <div class="contact-time text-center mx-auto">
                 <i class="fal fa-calendar-alt fa-3x"></i> 
-                <p>ПН-ПТ 9:00-17:00</p>
+                <p itemprop="openingHours" datetime="Mo-Fr 9:00−17:00"> ПН-ПТ 9.00-17.00</p>
                 <p>СБ, ВС Выходной</p>
             </div>
             <div class="contact-mail text-center mx-auto">
                 <i class="fal fa-mail-bulk fa-3x"></i>
-                <p>metallms@mail.ru</p>
+                <p itemprop="email">metallms@mail.ru</p>
             </div>
         </div>
     </div>
