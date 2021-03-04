@@ -1,6 +1,6 @@
 <?php include ("../top-header.php") ?>
 <title>МеталлМедиа - Купить уголок стальной в Краснодаре.</title>
-<meta name="keywords" content="" />
+<meta name="keywords" content="угол, уголок, стальной угол, стальной уголок, уголок стальной купить, купить стальной уголок, уголок 50х50, равнополочный угол, неравнополочный угол" />
 <?php include ("../header.php") ?>
 
 <div class="container-xl mx-auto">

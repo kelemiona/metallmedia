@@ -1,6 +1,6 @@
 <?php include ("blocks/top-header.php") ?>
 <title>МеталлМедиа - комплексная поставка металлопроката в Красноадаре и крае.</title>
-<meta name="keywords" content="" />
+<meta name="keywords" content="металл, металлопрокат, листы, трубы, металлпрокат, магазин металла, лист, трубы, сталь, уголок стальной, поковка, полоса стальная, профильные трубы, доставка металла, черный металл, оцинкованный, легированные стали" />
 <?php include ("blocks/header.php") ?>
 <div itemscope itemtype="http://schema.org/LocalBusiness">
   <section class="contact-us text-center py-3 py-sm-5">

@@ -1,6 +1,6 @@
 <?php include ("../top-header.php") ?>
 <title>МеталлМедиа - Купить бесшовную трубу в Краснодаре.</title>
-<meta name="keywords" content="" />
+<meta name="keywords" content="бесшовная труба, купить трубу краснодар, бесшовные трубы, трубы холоднодеформированные, трубы горячедеформированные,  трубы бесшовные холоднодеформированные, трубы бесшовные горячедеформированные, труба, стальная труба бесшовная" />
 <?php include ("../header.php") ?>
 <div class="container-xl mx-auto">
 <?php include ("../breadcrumb.php") ?>

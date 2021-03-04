@@ -1,6 +1,6 @@
 <?php include ("../top-header.php") ?>
 <title>МеталлМедиа - Купить квадрат стальной в Краснодаре.</title>
-<meta name="keywords" content="" />
+<meta name="keywords" content="металлический квадрат, квадрат стальной, квадрат металлический цена,купить квадрат металлический,квадрат металлический стальной,квадрат металлический краснодар,прут квадратный" />
 <?php include ("../header.php") ?>
 
 <div class="container-xl mx-auto">

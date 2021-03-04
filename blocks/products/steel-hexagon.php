@@ -1,6 +1,6 @@
 <?php include ("../top-header.php") ?>
 <title>МеталлМедиа - Купить шестигранник в Краснодаре.</title>
-<meta name="keywords" content="" />
+<meta name="keywords" content="шестигранник, стальной шестигранник, металл, купить шестигранник, металлический шестигранник, купить стальной шестигранник" />
 <?php include ("../header.php") ?>
 
 <div class="container-xl mx-auto">

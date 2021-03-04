@@ -1,6 +1,6 @@
 <?php include ("../top-header.php") ?>
 <title>МеталлМедиа - Купить круг стальной в Краснодаре.</title>
-<meta name="keywords" content="" />
+<meta name="keywords" content="круг стальной, купить круг стальной, стальной круг краснодар, стальной круг доставка, купить стальной круг с доставкой, круг из металла, металлический круг." />
 <?php include ("../header.php") ?>
 
 <div class="container-xl mx-auto">

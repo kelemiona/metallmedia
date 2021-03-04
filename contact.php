@@ -1,7 +1,7 @@
 <?php include ("blocks/top-header.php") ?>
     <title>Контактная информация МеталлМедиа</title>
-    <meta name="description" content="" />
-    <meta name="keywords" content="" />
+    <meta name="description" content="Контактная информация компании Металлмедиа, связаться с нами, банковские реквизиты компании" />
+    <meta name="keywords" content="контактная информация металлмедиа" />
 <?php include ("blocks/header.php") ?>
 <div class="container-xl mx-auto">
     <h1 class="mt-1 mt-sm-3 name-page">Контакты</h1>

@@ -1,6 +1,6 @@
 <?php include ("../top-header.php") ?>
 <title>МеталлМедиа - Купить поковку в Краснодаре.</title>
-<meta name="keywords" content="" />
+<meta name="keywords" content="поковка, стальная поковка, поковка стальная, металическая поковка, поковка из металла, металл поковка" />
 <?php include ("../header.php") ?>
 
 <div class="container-xl mx-auto">

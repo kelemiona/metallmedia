@@ -1,6 +1,6 @@
 <?php include ("../top-header.php") ?>
 <title>МеталлМедиа - Купить стальной лист в Краснодаре.</title>
-<meta name="keywords" content="" />
+<meta name="keywords" content="лист стали,лист стальной,лист оцинкованный,лист оцинкованный цена, листовой прокат,лист металлический,лист металла,лист стальной,лист стали купить,листы металла" />
 <?php include ("../header.php") ?>
 <div class=" container-xl mx-auto">
 <?php include ("../breadcrumb.php") ?>
