@@ -841,8 +841,11 @@ aside a:hover {
     .phone a {
         font-size: 12px;
     }
-    .product-about, .product-about-text{
+    .phone .mobile {
         font-size: 25px;
+    }
+    .product-about, .product-about-text{
+        font-size: 22px;
     }
     .product-about-li {
         font-size: 27px

@@ -2,7 +2,7 @@
 <title>МеталлМедиа - комплексная поставка металлопроката в Красноадаре и крае.</title>
 <meta name="keywords" content="" />
 <?php include ("blocks/header.php") ?>
-<div itemscope itemtype="http://schema.org/Organization">
+<div itemscope itemtype="http://schema.org/LocalBusiness">
   <section class="contact-us text-center py-3 py-sm-5">
     <div class="info py-2">
       <div class="container-xl">
@@ -72,7 +72,7 @@
     <h3 class="name-block">О нас</h3>
     <div class="row py-3 py-sm-4 container-xl mx-auto ">
       <div class="image-about d-none d-sm-block col-sm-6">
-        <img src="/img/tube-bende.jpg" alt="work-image">
+        <img src="/img/tube-bende.jpg" alt="work-image" itemprop="image">
       </div>
       <div class="text-about col-sm-6">
         <p> <span itemprop="description"> Компания "МеталлМедиа" существует на Краснодарском рынке уже 5 лет, и за это время успела зарекомендовать себя в качестве надежного поставщика металлопроката. Мы занимаемся реализацией черного и оцинкованного металлопроката.</span> Наш основной склад находится по адрессу <span itemprop="address"> г. Краснодар ул. Зоологическая д.35/1 </span>. График работы: <span itemprop="openingHours" datetime="Mo-Fr 9:00−17:00"> по будням с 9.00 до 17.00.</span></p>

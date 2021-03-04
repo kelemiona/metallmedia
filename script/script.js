@@ -23,9 +23,6 @@ document.addEventListener('DOMContentLoaded', () => {
                 links[i].classList.add('active-link');
                 if (splitUrl[3] == 'products') {
                     switch (splitUrl[4]) {
-                        case 'steellist.php': 
-                            document.title = "Купить стальной лист в Краснодаре";
-                            break;
                         case 'steel-round-tube.php': 
                             document.title = "Купить стальную трубу в Краснодаре";
                             break;

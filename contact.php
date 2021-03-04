@@ -7,11 +7,12 @@
     <h1 class="mt-1 mt-sm-3 name-page">Контакты</h1>
 </div>
 <section class="contact back-light-grey mt-1 mt-sm-3">
-    <div class="row py-3 py-sm-4 container-xl mx-auto" itemscope itemtype="http://schema.org/Organization">
+    <div class="row py-3 py-sm-4 container-xl mx-auto" itemscope itemtype="http://schema.org/LocalBusiness">
         <div class="col-12 col-md-6">
         <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A1b409286e254f96b45c13667c72682cb52b950ee03fc092248c479d5adb6550c&amp;source=constructor"  frameborder="0"></iframe>
         </div>
         <div class="col-12 col-md-6 d-flex flex-wrap mx-auto">
+            <div class="d-none" itemprop="name">МеталлМедиа</div>
             <div class="contact-adress text-center mx-auto">
                 <i class="fal fa-map-marker-alt fa-3x"></i> 
                 <p itemprop="address">г. Краснодар ул. Зоологическая д.35/1</p>
@@ -29,6 +30,7 @@
                 <i class="fal fa-mail-bulk fa-3x"></i>
                 <p itemprop="email">metallms@mail.ru</p>
             </div>
+            <img class="d-none" src="/img/logo.png" alt="logo" itemprop="image">
         </div>
     </div>
 </section>
