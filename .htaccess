@@ -14,6 +14,7 @@ RewriteCond %{REQUEST_FILENAME}\.php -f
 
  # делаем замену с дописыванием .php
 
+<<<<<<< HEAD
 RewriteRule ^(.*)$ $1.php
 
 
@@ -21,3 +22,6 @@ RewriteRule ^(.*)$ $1.php
 RewriteCond %{HTTPS} off
 RewriteCond %{HTTP:X-Forwarded-Proto} !https
 RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+=======
+RewriteRule ^(.*)$ $1.php
+>>>>>>> 35e1044a289b0e0c89dee1a3496a293dc501c34e

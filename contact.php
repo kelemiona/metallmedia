@@ -2,6 +2,7 @@
     <title>Контактная информация МеталлМедиа</title>
     <meta name="description" content="Контактная информация компании Металлмедиа, связаться с нами, банковские реквизиты компании" />
     <meta name="keywords" content="контактная информация металлмедиа" />
+<<<<<<< HEAD
     <!-- Yandex.Metrika counter -->
 <script type="text/javascript" >
    (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
@@ -16,6 +17,8 @@
 </script>
 <noscript><div><img src="https://mc.yandex.ru/watch/73419481" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
 <!-- /Yandex.Metrika counter -->
+=======
+>>>>>>> 35e1044a289b0e0c89dee1a3496a293dc501c34e
 <?php include ("blocks/header.php") ?>
 <div class="container-xl mx-auto">
     <h1 class="mt-1 mt-sm-3 name-page">Контакты</h1>
